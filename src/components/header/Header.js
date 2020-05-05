@@ -16,7 +16,7 @@ class Header extends Component {
                     <div className="header-content">
                         <h1>Whole Cell Accessories</h1>
                         <h2>Open To Public</h2>
-                        <h2>Never Pay Retail!!!</h2>
+                        <h2>Never Pay Retail!!</h2>
                     </div>
                 </div>
                 {/* <NavigationBar /> */}
