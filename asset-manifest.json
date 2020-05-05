@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/whole-cell-online-site/static/css/main.9feb1f54.chunk.css",
-    "main.js": "/whole-cell-online-site/static/js/main.8a318269.chunk.js",
-    "main.js.map": "/whole-cell-online-site/static/js/main.8a318269.chunk.js.map",
+    "main.css": "/whole-cell-online-site/static/css/main.8c87fec3.chunk.css",
+    "main.js": "/whole-cell-online-site/static/js/main.28eca24c.chunk.js",
+    "main.js.map": "/whole-cell-online-site/static/js/main.28eca24c.chunk.js.map",
     "runtime-main.js": "/whole-cell-online-site/static/js/runtime-main.e0f45547.js",
     "runtime-main.js.map": "/whole-cell-online-site/static/js/runtime-main.e0f45547.js.map",
     "static/js/2.98cde98d.chunk.js": "/whole-cell-online-site/static/js/2.98cde98d.chunk.js",
     "static/js/2.98cde98d.chunk.js.map": "/whole-cell-online-site/static/js/2.98cde98d.chunk.js.map",
     "index.html": "/whole-cell-online-site/index.html",
-    "precache-manifest.12c8fec09b2a495aa72767bfbd155b89.js": "/whole-cell-online-site/precache-manifest.12c8fec09b2a495aa72767bfbd155b89.js",
+    "precache-manifest.708273aa18763d136d921cd7fe77aabb.js": "/whole-cell-online-site/precache-manifest.708273aa18763d136d921cd7fe77aabb.js",
     "service-worker.js": "/whole-cell-online-site/service-worker.js",
-    "static/css/main.9feb1f54.chunk.css.map": "/whole-cell-online-site/static/css/main.9feb1f54.chunk.css.map",
+    "static/css/main.8c87fec3.chunk.css.map": "/whole-cell-online-site/static/css/main.8c87fec3.chunk.css.map",
     "static/js/2.98cde98d.chunk.js.LICENSE.txt": "/whole-cell-online-site/static/js/2.98cde98d.chunk.js.LICENSE.txt",
     "static/media/bg.mp4": "/whole-cell-online-site/static/media/bg.04bd99a1.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.e0f45547.js",
     "static/js/2.98cde98d.chunk.js",
-    "static/css/main.9feb1f54.chunk.css",
-    "static/js/main.8a318269.chunk.js"
+    "static/css/main.8c87fec3.chunk.css",
+    "static/js/main.28eca24c.chunk.js"
   ]
 }
