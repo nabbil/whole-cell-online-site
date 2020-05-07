@@ -1,0 +1,45 @@
+.services{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+}
+
+.services .bgimg{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/services/services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services .content{
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+
+.services .content .col{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.services .content .acc-col{
+    background-color: rgba(66, 66, 66, 0.66);
+
+}
+
+.services .content .rep-col{
+    background-color: rgba(204, 154, 79, 0.66);
+
+}
+.services .content .act-col{
+    background-color: rgba(0, 0, 0, 0.64);
+
+}
