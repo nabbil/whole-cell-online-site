@@ -1,0 +1,101 @@
+.shop-with-us{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+}
+
+.shop-with-us .bgimg{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/shop_with_us/shop_with_us_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.shop-with-us .content{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+  .shop-with-us .sub-content{
+    padding:25px;
+  }
+
+  /* .shop-with-us .sub-content .warehouse{
+      width: 100%;
+      height: 100%;
+  }
+
+  .shop-with-us .sub-content .ware-img{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/shop_with_us/warehouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .shop-with-us .sub-content .acc-img{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/shop_with_us/warehouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .shop-with-us .sub-content .rep-img{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/shop_with_us/warehouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .shop-with-us .sub-content .pho-img{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/shop_with_us/warehouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  } 
+
+  .shop-with-us .sub-content .wrapper{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.6);
+  } */
+
+  .shop-with-us .sub-content .sub-heading{
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #cc9a4f;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .shop-with-us .sub-content .description{
+      margin: 15px;
+      text-align: center;
+  }
+
+  .shop-with-us .content .heading{
+    font-family: "Oswald", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  .shop-with-us .content .heading span{
+    color: #cc9a4f;
+  }

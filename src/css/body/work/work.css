@@ -1,0 +1,62 @@
+.work{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+}
+
+.work .bgimg{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/work_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.work .content{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+  .work .sub-content{
+    padding:25px;
+  }
+
+  .work .sub-content .circle{
+    font-size: 15px;
+    color: #cc9a4f;
+    font-weight: 500;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .work .sub-content .description{
+      margin: 15px 0;
+      text-align: center;
+  }
+
+  .work .content .heading{
+    font-family: "Oswald", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  .work .content .heading span{
+    color: #cc9a4f;
+  }

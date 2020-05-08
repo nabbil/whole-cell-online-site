@@ -9,13 +9,13 @@ class Services extends Component {
             <div className="services">
                 <div className="bgimg">
                     <Row className="content">
-                        <Col className="acc-col col">
+                        <Col md={4} xs={12} className="acc-col col">
                         Accessories
                         </Col>
-                        <Col className="rep-col col">
+                        <Col md={4} xs={12} className="rep-col col">
                         Repair
                         </Col>
-                        <Col className="act-col col">
+                        <Col md={4} xs={12} className="act-col col">
                         Activation
                         </Col>
                     </Row>
