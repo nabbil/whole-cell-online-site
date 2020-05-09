@@ -1,0 +1,103 @@
+  .header-navbar{
+    position: fixed;
+    transition: line-height 0.5s, top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
+    font-family: "Oswald", Helvetica, sans-serif;
+    z-index: 1030;
+    padding: 0 50px;
+    height: 40px !important;
+
+  }
+
+  .state1 .header-navbar{
+      top: 40px;
+      line-height: 45px !important;
+  }
+
+  .state2 .header-navbar{
+    top:0;
+    line-height: 40px !important;
+
+  }
+
+.header-navbar .date, .login{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.state1 .header-navbar .date{
+    color: #cc9a4f;
+}
+
+.state2 .header-navbar .date{
+    color: black;
+}
+
+.header-navbar .logo{
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.state1 .header-navbar .logo span{
+    color: #cc9a4f;
+}
+
+.state2 .header-navbar .logo{
+    color: black;
+  }
+  
+  .state2 .header-navbar .logo span{
+      color: white;
+  }
+
+.header-navbar .toggle{
+  border-color: transparent !important;
+}
+
+.header-navbar .toggle:focus{
+  outline: 0 !important;
+}
+
+.header-navbar .login:hover{
+  cursor: pointer;
+}
+
+
+
+@media(max-width: 991px){
+    .header-navbar .list{
+        transition: 500ms ease;
+        background-color: rgba(0,0,0, 0.5);
+    }
+    
+    .header-navbar .login, .header-navbar .date{
+        margin: 0;
+        padding-left: 15px;
+    }
+
+    .header-navbar .login:hover, .header-navbar .date:hover{
+        background-color: grey;
+    }
+    .state2 .header-navbar .date{
+        color: #cc9a4f;
+    }
+}
+
+@media(max-width: 777px){
+    .state1 .header-navbar{
+        top:0;
+        line-height: 40px !important;
+    
+      }
+
+      .state1 .header-navbar .date{
+        color: #cc9a4f;
+    }
+
+    .state1 .header-navbar .logo{
+        color: black;
+      }
+      
+      .state1 .header-navbar .logo span{
+          color: white;
+      }
+}

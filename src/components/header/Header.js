@@ -73,7 +73,7 @@ class Header extends Component {
                         </div>
                     </div>
                     <div className="page-border top">
-                        <h5>{this.getDate()}</h5>
+                        {/* <h5>{this.getDate()}</h5> */}
                     </div>
                     <div className="page-border bottom">
                     </div>
@@ -86,7 +86,7 @@ class Header extends Component {
                     <div className="page-border right">
                     </div>
                 </div>
-                {/* <NavigationBar /> */}
+                <NavigationBar state={this.state.state1}/>
             </div>
         )
     }

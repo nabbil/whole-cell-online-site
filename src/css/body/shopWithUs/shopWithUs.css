@@ -2,11 +2,13 @@
     position: relative;
     z-index: 100;
     width: 100%;
+    min-height: 100vh;
     overflow: hidden;
 }
 
 .shop-with-us .bgimg{
     width: 100%;
+    min-height: 100vh;
     height: auto;
     background-image: url(../../../assets/shop_with_us/shop_with_us_bg.jpg);
     background-repeat: no-repeat;
@@ -16,14 +18,21 @@
 
 .shop-with-us .content{
     width: 100%;
+    min-height: 100vh;
     background-color: rgba(0,0,0,0.5);
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+}
+
+.shop-with-us .content .container-fluid{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
 }
 
   .shop-with-us .sub-content{
-    padding:25px;
+    padding-top:25px;
   }
 
   /* .shop-with-us .sub-content .warehouse{

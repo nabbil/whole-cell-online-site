@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Services from './services/Services'
+import Client from './client/Client'
 import About from './about/About'
 import Work from './work/Work'
 import ShopWithUs from './shopWithUs/ShopWithUs'
@@ -11,11 +12,13 @@ class Body extends Component {
             <div>
                 <Services />
 
-                <About />
+                <Client />
+
+                {/* <About />
 
                 <Work />
 
-                <ShopWithUs />
+                <ShopWithUs /> */}
             </div>
         )
     }

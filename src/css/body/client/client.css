@@ -1,0 +1,55 @@
+.client{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+}
+
+.client .bgimg{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/client/client.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.client .content{
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+
+.client .content .col{
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.client .content .cr-col{
+    background-color: rgba(66, 66, 66, 0.66);
+
+}
+
+.client .content .st-col{
+    background-color: rgba(204, 154, 79, 0.66);
+
+}
+.client .content .btb-col{
+    background-color: rgba(0, 0, 0, 0.64);
+
+}
+
+@media(min-width: 767px){
+    /* .client .content .col{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    } */
+}
