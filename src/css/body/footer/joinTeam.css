@@ -1,0 +1,61 @@
+.join-team{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.join-team .bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/join_team_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.join-team .image-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    background-attachment: fixed;
+}
+
+.join-team .content{
+    color: #f1f1f1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.join-team .content div{
+    flex: 1;
+}
+
+.join-team .sub-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    width:100%;
+    height:100%;
+}
+
+.join-team .bottom-content{
+    display: flex;
+    align-items: center;
+}
+
+.join-team .wrapper{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.join-team .row{
+    height: 100px;
+}
+
+.join-team .row a{
+    color: inherit;
+    text-decoration: none;
+}

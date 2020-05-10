@@ -1,0 +1,44 @@
+.social-links{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.social-links .bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/social_links_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.social-links .image-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    background-attachment: fixed;
+}
+
+.social-links .content{
+    color: #f1f1f1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-links .wrapper{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.social-links .row{
+    height: 100px;
+}
+
+.social-links .row a{
+    color: inherit;
+    text-decoration: none;
+}

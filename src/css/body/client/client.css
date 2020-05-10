@@ -44,12 +44,8 @@
 
 }
 
-@media(min-width: 767px){
-    /* .client .content .col{
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    } */
+@media(max-width: 767px){
+    .client .content{
+        font-size: 5vh;
+    }
 }

@@ -83,6 +83,10 @@
 }
 
 @media(max-width: 777px){
+
+    .header-navbar{
+      padding: 0 15px;
+    }
     .state1 .header-navbar{
         top:0;
         line-height: 40px !important;
@@ -100,4 +104,11 @@
       .state1 .header-navbar .logo span{
           color: white;
       }
+}
+
+@media(max-width: 370px){
+  .header-navbar .logo{
+    font-weight: 800;
+    font-size: 15px;
+  }
 }

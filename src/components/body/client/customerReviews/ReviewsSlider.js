@@ -4,7 +4,7 @@ import React, {Component} from 'react'
   import '../../../../css/body/client/customerReviews/reviewsSlider.css'
   import Slider from "react-slick"
 
-//   import ReviewModal from './ReviewModal'
+  import ReviewModal from './ReviewModal'
 
 class ReviewsSlider extends Component {
 
@@ -12,7 +12,7 @@ class ReviewsSlider extends Component {
         super(props)
         this.state={
             reviews: [],
-            filteredModal: 0,
+            filteredModal:[],
             reviewModal: false
 
         }
@@ -31,7 +31,9 @@ class ReviewsSlider extends Component {
     toggleReviewModal = (id) => {
         this.setState({
             reviewModal: !this.state.reviewModal,
-            filteredModal: id
+            filteredModal: this.state.reviews.filter(review => 
+                review.id === id
+                )
         })
     }
 
@@ -92,11 +94,11 @@ class ReviewsSlider extends Component {
                                         <small className="card-text text-sm-center">5 Stars</small>
                                         <br/>
                                         <button value={review.id} className="btn btn-outline-light see-more" variant="primary" onClick={() => this.toggleReviewModal(review.id)}>See More</button>
-                                        {/* <ReviewModal
-                                              show={this.state.reviewModal}
-                                              onHide={this.toggleReviewModal}
+                                        <ReviewModal
+                                              reviewModal={this.state.reviewModal}
+                                              toggleReviewModal={this.toggleReviewModal}
                                               filteredModal= {this.state.filteredModal}
-                                          /> */}
+                                          />
                                     </div>
                                 </div>
                             </div>

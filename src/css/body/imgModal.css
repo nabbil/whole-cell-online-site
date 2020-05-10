@@ -1,0 +1,19 @@
+.image-modal .modal-content{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.image-modal .body{
+    padding: 0 !important;
+}
+
+.image-modal .img{
+    width: 100% !important;
+}
+
+.image-modal .container{
+    position: relative;
+    padding: 0;
+
+  }

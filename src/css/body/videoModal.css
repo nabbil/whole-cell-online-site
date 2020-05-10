@@ -1,0 +1,18 @@
+.video-modal .body{
+    padding: 0 !important;
+}
+
+.video-modal .video{
+    width: 100% !important;
+}
+
+.video-modal .container{
+  position: relative;
+  padding: 0;
+}
+
+.video-modal .modal-content{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}

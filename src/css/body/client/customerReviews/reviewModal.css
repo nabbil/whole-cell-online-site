@@ -1,0 +1,76 @@
+.review-modal-backdrop
+{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.review-modal .modal-header{
+    border-bottom: transparent;
+    padding: 0;
+}
+
+  .review-modal{
+    padding: 0 !important;
+  }
+
+
+  .review-modal .modal-header .close{
+      margin: 0;
+      padding: 0;
+      margin-right: 10px;
+      margin-top: 5px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      
+  }
+
+  .review-modal .modal-title{
+      text-align: center;
+      margin: auto;
+      margin-top: 10px;
+  }
+
+  .review-modal .img:hover{
+      cursor: pointer;
+      border: 5px solid grey;
+  }
+
+  .review-modal .video-container{
+      margin-left: 10px;
+      position: relative;
+  }
+
+  .review-modal .video-wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    height: 100px;
+    width: 100px;display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+  }
+
+  .review-modal .video-wrapper:hover {
+      cursor: pointer;
+      border: 5px solid grey;
+  }
+
+  .review-modal .video-wrapper:hover .review-modal .video-icon{
+    cursor: pointer;
+    color: grey;
+}
+
+  .review-modal .video-icon{
+    color: white;
+  }
+
+  .review-modal .video-icon:hover{
+    color: grey;
+}
+
+.review-modal .gallery{
+  display: flex;
+  flex-direction: row;
+}

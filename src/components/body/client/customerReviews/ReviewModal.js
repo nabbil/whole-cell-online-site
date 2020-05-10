@@ -1,51 +1,47 @@
 import React, {Component} from 'react'
-import {Modal} from 'react-bootstrap'
+// import {Modal} from 'react-bootstrap'
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 import '../../../../css/body/client/customerReviews/reviewModal.css'
 
-import ReviewImg from '../../../../assets/clients/customerReviews/review_img.jpg'
-import ReviewVideo from '../../../../assets/clients/customerReviews/review_video.mp4'
+import ReviewImg from '../../../../assets/client/customerReviews/review_img.jpg'
+import ReviewVideo from '../../../../assets/client/customerReviews/review_video.mp4'
 
-// import ClientImgModal from '../ClientImgModal'
-// import ClientVideoModal from '../ClientVideoModal'
+import ImgModal from '../../ImgModal'
+import VideoModal from '../../VideoModal'
 import ReactPlayer from 'react-player'
 
 class ReviewModal extends Component{
     constructor(props){
         super(props)
         this.state={
-            imgNestedModal: false,
-            videoNestedModal: false
+            imgModal: false,
+            videoModal: false
         }
     }
 
-    toggleImgNestedModal = () => {
+    toggleImgModal = () => {
         this.setState({
-            imgNestedModal: !this.state.imgNestedModal
+            imgModal: !this.state.imgModal
         })
     }
-    toggleVideoNestedModal = () => {
+    toggleVideoModal = () => {
         this.setState({
-            videoNestedModal: !this.state.videoNestedModal
+            videoModal: !this.state.videoModal
         })
     }
-//   toggleClientImageModal = () => {
-//     this.props.onToggleClientImageModal()
-
-// }
-
-// toggleClientVideoModal = () => {
-//   this.props.onToggleClientVideoModal()
-
-// }
     render(){
       return (
         <div>
         {this.props.filteredModal.map((review) =>
 
-        <Modal isOpen={this.props.reviewModal} toggle={this.props.onHide()}>
-        <ModalHeader toggle={this.props.onHide()}  className="header title">
+        <Modal 
+        modalClassName="review-modal"
+        isOpen={this.props.reviewModal} 
+        toggle={() => this.props.toggleReviewModal()}
+        centered
+        backdropClassName="review-modal-backdrop">
+        <ModalHeader toggle={() => this.props.toggleReviewModal()}  className="modal-header modal-title">
             <img className="rounded-circle" alt={"users here"} src={`https://source.unsplash.com/random/${review.id}`} height={56} width={56} />
             <h5>{review.username}</h5>
         </ModalHeader>
@@ -55,29 +51,20 @@ class ReviewModal extends Component{
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quidem ex nesciunt iste quia, dignissimos non debitis enim similique! Repudiandae facilis vel adipisci dolores iusto!
             </p>
             <div className="gallery">
-            <img className="img" alt="review here" src={ReviewImg} height={100} width={100} onClick={() => this.toggleClientImageModal()}/>
+            <img className="img" alt="review here" src={ReviewImg} height={100} width={100} onClick={() => this.toggleImgModal()}/>
             <div className="video-container">
                 <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s' width={100} height={100}/>
-                <div className="video-wrapper" onClick={() => this.toggleClientVideoModal()}><i className="far fa-play-circle fa-4x rmv-icon"></i></div>
+                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle fa-4x video-icon"></i></div>
             </div>
             </div>
-            <ClientVideoModal
-            show={this.state.videoNestedModal}
-            onHide={this.toggleVideoNestedModal}
+            <VideoModal
+            videoModal={this.state.videoModal}
+            toggleVideoModal={this.toggleVideoModal}
             />
-            <ClientImgModal
-              show={this.props.imgNestedModal}
-              onHide={this.toggleImgNestedModal}
+            <ImgModal
+              imgModal={this.state.imgModal}
+              toggleImgModal={this.toggleImgModal}
             />
-        <Button color="success" onClick={toggleNested}>Show Nested Modal</Button>
-        <Modal isOpen={nestedModal} toggle={toggleNested} onClosed={closeAll ? toggle : undefined}>
-            <ModalHeader>Nested Modal title</ModalHeader>
-            <ModalBody>Stuff and things</ModalBody>
-            <ModalFooter>
-            <Button color="primary" onClick={toggleNested}>Done</Button>{' '}
-            <Button color="secondary" onClick={toggleAll}>All Done</Button>
-            </ModalFooter>
-        </Modal>
         
         </ModalBody>
         </Modal>

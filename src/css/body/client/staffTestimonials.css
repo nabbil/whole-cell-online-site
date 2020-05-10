@@ -1,0 +1,80 @@
+.staff-testimonials{
+    position: relative;
+    width: 100%;
+    height: 200vh;
+}
+
+.staff-testimonials .bgimg{
+    width: 100%;
+    height: 200vh;
+    background-image: url(../../../assets/client/staff_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.staff-testimonials .image-wrapper{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 200vh;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.staff-testimonials .content{
+    position: relative;
+    color: #f1f1f1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 40px;
+    text-align: center;
+}
+
+.staff-testimonials .video{
+    pointer-events: none;
+}
+
+.staff-testimonials .video-container{
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.staff-testimonials .video-wrapper{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+.staff-testimonials .video-wrapper:hover {
+    cursor: pointer;
+    border: 8px solid grey;
+}
+
+.staff-testimonials .video-wrapper:hover .video-icon{
+  cursor: pointer;
+  color: grey;
+}
+
+.staff-testimonials .video-icon{
+  color: white;
+}
+
+.staff-testimonials .video-icon:hover{
+  color: grey;
+}

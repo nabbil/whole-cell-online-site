@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 import {Row, Col} from 'react-bootstrap'
 import '../../../css/body/client/client.css'
 import CustomerReviews from './customerReviews/CustomerReviews'
-// import StaffTestimonials from './StaffTestimonials'
-// import BeTheBoss from './BeTheBoss'
+import StaffTestimonials from './StaffTestimonials'
+import BeTheBoss from './BeTheBoss'
 
 class Client extends Component {
     render() {
@@ -26,8 +26,8 @@ class Client extends Component {
                     </div>
                 </div>
                 <CustomerReviews />
-                {/* <StaffTestimonials />
-                <BeTheBoss /> */}
+                <StaffTestimonials />
+                <BeTheBoss />
             </div>
         )
     }
