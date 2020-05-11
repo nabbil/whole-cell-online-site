@@ -89,7 +89,7 @@ class NavigationBar extends Component {
     render() {
         return (
             <div className={this.props.state}>
-                <Navbar className="header-navbar" collapseOnSelect expand="lg" variant="dark" fixed="top">
+                <Navbar className="header-navbar" collapseOnSelect expand="md" variant="dark" fixed="top">
                         <Nav>
                             <Navbar.Brand className="logo" href="/whole-cell-online/">Whole Cell<span> Accessories</span></Navbar.Brand>
                         </Nav>

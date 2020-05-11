@@ -63,7 +63,7 @@
 
 
 
-@media(max-width: 991px){
+@media(max-width: 667px){
     .header-navbar .list{
         transition: 500ms ease;
         background-color: rgba(0,0,0, 0.5);
@@ -83,10 +83,6 @@
 }
 
 @media(max-width: 777px){
-
-    .header-navbar{
-      padding: 0 15px;
-    }
     .state1 .header-navbar{
         top:0;
         line-height: 40px !important;
@@ -106,9 +102,14 @@
       }
 }
 
-@media(max-width: 370px){
+@media(max-width: 443px){
+
+  .header-navbar{
+    padding: 0 15px;
+  }
   .header-navbar .logo{
     font-weight: 800;
     font-size: 15px;
+    margin-right: 10px;
   }
 }
