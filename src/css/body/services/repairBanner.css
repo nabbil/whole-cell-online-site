@@ -12,11 +12,13 @@
     height: 100vh;
     background-image: url(../../../assets/services/repair_banner.png);
     background-repeat: no-repeat;
-    -moz-background-size: 100% 100%;
+    /* -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
+    background-size: contain;
     background-attachment: fixed;
     background-position: center;
+    background-color: #efd400;
 }
   
 /* .repair-banner .wrapper {
@@ -28,3 +30,16 @@
   height: 100%;
   padding: 40px;
 } */
+
+@media(max-width: 1000px){
+  .repair-banner .bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/services/repair_banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #efd400;
+}
+}
