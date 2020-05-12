@@ -11,26 +11,24 @@
       overflow: hidden;
     }
     
-    .activation #video {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translateX(-50%) translateY(-50%);
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      z-index: -1;
-    }
-    
-    .activation .wrapper {
-      position: absolute;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.5);
-      color: #f1f1f1;
+    .activation .bgimg{
       width: 100%;
-      padding: 40px;
-    }
+      height: 100vh;
+      background-image: url(../../../assets/services/activation.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+  }
+    
+  .activation .wrapper {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 40px;
+  }
     
     .activation .content{
       color: #f1f1f1;
@@ -49,4 +47,14 @@
     .activation .content h1{
         color: #cc9a4f;
         
+    }
+
+    @media(max-width: 767px){
+      .activation .content h1{
+        font-size: 35px;
+      }
+
+      .activation .content p{
+        font-size: 15px;
+      }
     }

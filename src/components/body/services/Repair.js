@@ -1,21 +1,19 @@
 import React, { Component } from 'react'
 import {Row, Col} from 'react-bootstrap'
 
-import BgVideo from '../../../assets/services/repair_bg.mp4'
+import BgVideo from '../../../assets/services/repair.webm'
 import '../../../css/body/services/repair.css'
 import IntroductionSection from '../IntroductionSection'
+import RepairBanner from './RepairBanner'
 
 class Repair extends Component {
     render() {
         return (
             <div>
-                <IntroductionSection 
-                    sectionName='Repair'
-                    bgImg='repair-banner-bgimg'
-                />
+                <RepairBanner />
                 <div className="repair">
                     <video autoplay="autoplay" muted loop="loop" id="video">
-                    <source src={BgVideo} type="video/mp4" />
+                    <source src={BgVideo} type="video/webm" />
                     Your browser does not support HTML5 video.
                     </video>
                     <div className="wrapper">

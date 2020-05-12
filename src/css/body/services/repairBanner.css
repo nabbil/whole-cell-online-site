@@ -1,0 +1,30 @@
+
+  
+  .repair-banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .repair-banner .bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../assets/services/repair_banner.png);
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+  
+/* .repair-banner .wrapper {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+} */
