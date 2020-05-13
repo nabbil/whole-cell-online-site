@@ -155,4 +155,23 @@
   .staff-testimonials .content p{
     font-size: 12px;
   }
+  
+  .staff-testimonials .video{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.staff-testimonials .video-container{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.staff-testimonials .video-wrapper{
+  height: 100px;
+  width: 100px;
+}
+.staff-testimonials .video-icon{
+  font-size: 40px;
+}
 }
