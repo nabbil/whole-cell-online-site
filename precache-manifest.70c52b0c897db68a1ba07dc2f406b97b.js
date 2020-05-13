@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2408fd75e44a19d1d3b4c5a3ecd76d64",
+    "revision": "846ff84b5a7e69382fd6fb03f36bec1b",
     "url": "/whole-cell-online-site/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whole-cell-online-site/static/css/2.508a7220.chunk.css"
   },
   {
-    "revision": "feb3e98b28da7a7915b9",
-    "url": "/whole-cell-online-site/static/css/main.9bbf0f19.chunk.css"
+    "revision": "2cc5c2a03573677dc425",
+    "url": "/whole-cell-online-site/static/css/main.6c866349.chunk.css"
   },
   {
     "revision": "78e731406725fb2f6db1",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whole-cell-online-site/static/js/2.3d839265.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "feb3e98b28da7a7915b9",
+    "revision": "2cc5c2a03573677dc425",
     "url": "/whole-cell-online-site/static/js/main.20774c29.chunk.js"
   },
   {
