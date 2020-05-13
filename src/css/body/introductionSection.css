@@ -30,17 +30,42 @@
     text-align: center;
 }
 
-.repair-banner-bgimg{
-    width: 100%;
-    height: 50%;
-    background-image: url(../../assets/services/services_introduction.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+.accessories-banner-bgimg{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/services/accessories_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.introduction-section .image-wrapper{
+.repair-banner-bgimg{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/services/repair_banner.png);
+  background-repeat: no-repeat;
+  /* -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%; */
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #efd400;
+}
+
+.activation-banner-bgimg{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/services/activation_banner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+}
+
+.introduction-section .wrapper{
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.6);

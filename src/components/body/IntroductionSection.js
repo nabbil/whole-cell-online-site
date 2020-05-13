@@ -9,7 +9,7 @@ class IntroductionSection extends Component {
             <div className="introduction-section">
                 <div className="content">
                     <div className={this.props.bgImg}>     
-                        <div className="image-wrapper">
+                        <div className={this.props.wrapper}>
                             <div className="sub-content">
                                 <span>
                                     <h1 data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000">

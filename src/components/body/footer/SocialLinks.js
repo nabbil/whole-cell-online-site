@@ -17,34 +17,34 @@ class SocialLinks extends Component {
                                 <Row className="row align-items-center">
                                     <Col className="text-center">
                                         <a href='https://www.youtube.com'>
-                                            <i className="fab fa-youtube fa-3x" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
+                                            <i className="fab fa-youtube icon" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
                                         </a>
                                     </Col>
                                     <Col className="text-center">
                                         <a href='https://www.instagram.com'>
-                                            <i className="fab fa-instagram fa-3x" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
+                                            <i className="fab fa-instagram icon" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
                                         </a>
                                     </Col>
                                     <Col className="text-center">
                                         <a href='https://www.google.com'>
-                                            <i className="fab fa-google fa-3x" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
+                                            <i className="fab fa-google icon" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
                                         </a>
                                     </Col>
                                     <Col className="text-center">
                                         <a href='https://www.facebook.com'>
-                                            <i className="fab fa-facebook-f fa-3x" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
+                                            <i className="fab fa-facebook-f icon" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
                                         </a>
                                     </Col>
                                 </Row>  
                                 <Row className="row align-items-center">
                                     <Col className="text-center">
                                         <a href='https://www.snapchat.com'>
-                                            <i className="fab fa-snapchat-ghost fa-3x" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
+                                            <i className="fab fa-snapchat-ghost icon" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
                                         </a>
                                     </Col>
                                     <Col className="text-center">
                                         <a href='https://www.pinterest.com'>
-                                            <i className="fab fa-pinterest-p fa-3x" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
+                                            <i className="fab fa-pinterest-p icon" data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000"></i>
                                         </a>
                                     </Col>
                                     <Col className="text-center">

@@ -91,7 +91,7 @@ class NavigationBar extends Component {
             <div className={this.props.state}>
                 <Navbar className="header-navbar" collapseOnSelect expand="md" variant="dark" fixed="top">
                         <Nav>
-                            <Navbar.Brand className="logo" href="/whole-cell-online/">Whole Cell<span> Accessories</span></Navbar.Brand>
+                            <Navbar.Brand className="logo" href="/whole-cell-online-site/">Whole Cell<span> Accessories</span></Navbar.Brand>
                         </Nav>
                         <Navbar.Toggle children={this._getNavbarToggleIcon()} onClick={this._onNavbarToggleClick}
                          className="toggle" aria-controls="responsive-navbar-nav" /> 

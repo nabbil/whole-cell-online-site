@@ -16,11 +16,11 @@
 }
 
 .services .content{
+    font-family: "Oswald", sans-serif;
     width: 100%;
     margin: 0;
     color: white;
     font-size: 3vw;
-    font-weight: lighter;
 }
 
 .services .content .col{
@@ -48,5 +48,10 @@
 @media(max-width: 767px){
     .services .content{
         font-size: 5vh;
+    }
+}
+@media(max-width: 576px){
+    .services .content{
+        font-size: 4vh;
     }
 }

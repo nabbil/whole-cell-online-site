@@ -12,7 +12,6 @@ class CustomerReviews extends Component {
                 <div className="bgimg">     
                      <div className="image-wrapper">
                         <div className="content">
-                             <div></div>
                              <div className="sub-content">
                                  <span>
                                 <h1 data-aos="fade-right" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000">
@@ -23,9 +22,7 @@ class CustomerReviews extends Component {
                                 </p>
                                  </span>
                              </div>
-                             <div>
-                                 <ReviewsSlider />
-                             </div>
+                            <ReviewsSlider />
                         </div>
                     </div>
                 </div>

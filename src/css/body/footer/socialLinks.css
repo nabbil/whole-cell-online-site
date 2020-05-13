@@ -31,6 +31,32 @@
     justify-content: center;
 }
 
+.social-links .content h1{
+    font-weight: 700;
+    font-size: 3rem;
+    background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+      
+  }
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 20px 50px;
+    }
+  }
+   
+  @keyframes stripes {
+    100% {
+      background-position: 20px -50px;
+    }
+  }
+
 .social-links .wrapper{
     background-color: rgba(0,0,0,0.5);
 }
@@ -43,3 +69,20 @@
     color: inherit;
     text-decoration: none;
 }
+
+.social-links .content .icon{
+  font-size: 40px;
+}
+
+@media(max-width: 767px){
+    .social-links .content h1{
+      font-size: 35px;
+    }
+
+    .social-links .content p{
+      font-size: 15px;
+    }
+    .social-links .content .icon{
+      font-size: 30px;
+    }
+  }

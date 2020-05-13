@@ -4,6 +4,7 @@ import {Cotainer} from 'react-bootstrap'
 import BgVideo from '../../assets/bg.mp4'
 import NavigationBar from './NavigationBar'
 import '../../css/header/header.css'
+import ImgLogo from '../../assets/logo.png'
 
 class Header extends Component {
     constructor(props){
@@ -67,9 +68,11 @@ class Header extends Component {
                 <div className="wrapper">
                     <div className="content">
                         <div className="center-text">
-                            <h1>Whole Cell Accessories</h1>
+                            <a href="/whole-cell-online-site/">
+                                <img className="img-logo" src={ImgLogo}/>
+                            </a>
                             <h2>Open To Public</h2>
-                            <h2>Never Pay Retail!!</h2>
+                            <h2>Never Pay Retail!!!</h2>
                         </div>
                     </div>
                     <div className="page-border top">

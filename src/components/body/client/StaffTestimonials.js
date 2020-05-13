@@ -33,16 +33,16 @@ class StaffTestimonials extends Component {
                             </p>
                             </span>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s' width={200} height={200}/>
-                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle fa-5x video-icon"></i></div>
+                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s'/>
+                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s' width={200} height={200}/>
-                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle fa-5x video-icon"></i></div>
+                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s'/>
+                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s' width={200} height={200}/>
-                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle fa-5x video-icon"></i></div>
+                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s'/>
+                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <VideoModal
                                             videoModal={this.state.videoModal}
