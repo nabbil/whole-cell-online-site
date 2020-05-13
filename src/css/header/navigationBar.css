@@ -64,6 +64,9 @@
 
 
 @media(max-width: 667px){
+  /* .state1 .header-navbar .date{
+    color: black;
+} */
     .header-navbar .list{
         transition: 500ms ease;
         background-color: rgba(0,0,0, 0.5);
@@ -90,7 +93,7 @@
       }
 
       .state1 .header-navbar .date{
-        color: #cc9a4f;
+        color: black;
     }
 
     .state1 .header-navbar .logo{
