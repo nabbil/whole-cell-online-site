@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93886b9bba51f3534e8196cfbb025399",
+    "revision": "44bceb4acbc5e78f2f9c12ab6367e683",
     "url": "/whole-cell-online-site/index.html"
   },
   {
-    "revision": "6c8511f6181e5f6b1f2f",
+    "revision": "78e731406725fb2f6db1",
     "url": "/whole-cell-online-site/static/css/2.508a7220.chunk.css"
   },
   {
-    "revision": "7442bf378ad9244ffa66",
-    "url": "/whole-cell-online-site/static/css/main.46910570.chunk.css"
+    "revision": "3fe5d31eec116d91debc",
+    "url": "/whole-cell-online-site/static/css/main.47785cc8.chunk.css"
   },
   {
-    "revision": "6c8511f6181e5f6b1f2f",
-    "url": "/whole-cell-online-site/static/js/2.74d7c637.chunk.js"
+    "revision": "78e731406725fb2f6db1",
+    "url": "/whole-cell-online-site/static/js/2.3d839265.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/whole-cell-online-site/static/js/2.74d7c637.chunk.js.LICENSE.txt"
+    "url": "/whole-cell-online-site/static/js/2.3d839265.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7442bf378ad9244ffa66",
-    "url": "/whole-cell-online-site/static/js/main.6e69de97.chunk.js"
+    "revision": "3fe5d31eec116d91debc",
+    "url": "/whole-cell-online-site/static/js/main.20774c29.chunk.js"
   },
   {
     "revision": "6f3218be17cea54cb5ad",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3e2bfe0257b3cf8690935bac29b2670e",
     "url": "/whole-cell-online-site/static/media/accessories_bg.3e2bfe02.png"
+  },
+  {
+    "revision": "7f65234b690a613c1df231cb85b17cf1",
+    "url": "/whole-cell-online-site/static/media/accessories_bg.7f65234b.jpg"
   },
   {
     "revision": "2881689110857909af35a08193173820",
@@ -72,12 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whole-cell-online-site/static/media/repair.a7427fea.webm"
   },
   {
-    "revision": "9ff4c21fecbd5a7a24e45f94614301ed",
-    "url": "/whole-cell-online-site/static/media/repair_banner.9ff4c21f.png"
-  },
-  {
-    "revision": "5244427dbf686b43e744dc0167300ba9",
-    "url": "/whole-cell-online-site/static/media/review_img.5244427d.jpg"
+    "revision": "23f0045a2d01ae65c3b68b2b8beb3633",
+    "url": "/whole-cell-online-site/static/media/repair_banner.23f0045a.png"
   },
   {
     "revision": "4648aa5633509d31d2b9d9fc2c6fa0d2",
