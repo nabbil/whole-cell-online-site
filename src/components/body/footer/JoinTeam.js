@@ -18,25 +18,25 @@ class JoinTeam extends Component {
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nulla aliquid id sunt culpa ipsum obcaecati fuga officia minima aliquam laboriosam ipsa odit neque, explicabo sequi, alias in rerum atque?
                                 </p>
                             </Container>
-                            <Container fluid className="wrapper">
-                                <Row className="row align-items-center">
-                                    <Col className="text-center">
+                            <div className="wrapper">
+                                <Row className="row">
+                                    <Col className="col text-center">
                                         <h5 data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000">
                                             We Fix Phones
                                         </h5>
                                     </Col>
-                                    <Col className="text-center">
+                                    <Col className="col text-center">
                                         <h5 data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000">
                                             We Sell Accessories
                                         </h5>
                                     </Col>
-                                    <Col className="text-center">
+                                    <Col className="col text-center">
                                         <h5 data-aos="fade-up" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000">
                                             We Activate Phones
                                         </h5>
                                     </Col>
                                 </Row> 
-                            </Container>
+                            </div>
                         </div>
                     </div>
                 </div>

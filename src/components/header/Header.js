@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {Cotainer} from 'react-bootstrap'
 
 import BgVideo from '../../assets/bg.mp4'
 import NavigationBar from './NavigationBar'
@@ -84,6 +83,38 @@ class Header extends Component {
                     <div className="page-border right border-pad">
                     </div>
                     <div className="page-border left">
+                        <ul>
+                            <li>
+                                <a href='https://www.youtube.com'>
+                                    <i className="fab fa-youtube icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.instagram.com'>
+                                    <i className="fab fa-instagram icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.google.com'>
+                                    <i className="fab fa-google icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.facebook.com'>
+                                    <i className="fab fa-facebook-f icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.snapchat.com'>
+                                    <i className="fab fa-snapchat-ghost icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.pinterest.com'>
+                                    <i className="fab fa-pinterest-p icon"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <div className="page-border right">
                     </div>

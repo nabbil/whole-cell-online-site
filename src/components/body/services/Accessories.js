@@ -7,6 +7,11 @@ class Accessories extends Component {
     render() {
         return (
             <div>
+            <IntroductionSection 
+                sectionName=""
+                bgImg="accessories-banner-bgimg"
+                wrapper=""
+            />
                 <div className="accessories">
                     <div className="bgimg">     
                         <div className="wrapper">
