@@ -81,3 +81,13 @@
         font-size: 15px;
       }
     }
+
+    @media(max-width: 320px){
+      .activation .content h1{
+        font-size: 25px;
+      }
+
+      .activation .content p{
+        font-size: 12px;
+      }
+    }

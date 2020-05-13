@@ -154,3 +154,13 @@
       font-size: 15px;
     }
   }
+
+  @media(max-width: 320px){
+    .repair .content h1{
+      font-size: 25px;
+    }
+
+    .repair .content p{
+      font-size: 12px;
+    }
+  }
