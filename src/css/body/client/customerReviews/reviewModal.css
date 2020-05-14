@@ -12,6 +12,10 @@
     padding: 0 !important;
   }
 
+  .review-modal-content{
+    border-radius: 0;
+  }
+
 
   .review-modal .modal-header .close{
       margin: 0;
@@ -32,7 +36,7 @@
 
   .review-modal .img:hover{
       cursor: pointer;
-      border: 5px solid grey;
+      border: 5px solid lightgray;
   }
 
   .review-modal .video-container{
@@ -50,24 +54,25 @@
     justify-content:center;
     align-items:center;
     text-align: center;
+    border: 5px solid #cc9a4f;
   }
 
   .review-modal .video-wrapper:hover {
       cursor: pointer;
-      border: 5px solid grey;
+      border: 5px solid lightgray;
   }
 
-  .review-modal .video-wrapper:hover .review-modal .video-icon{
+  .review-modal .video-wrapper:hover .video-icon{
     cursor: pointer;
-    color: grey;
+    color: lightgray;
 }
 
   .review-modal .video-icon{
-    color: white;
+    color: #cc9a4f;
   }
 
   .review-modal .video-icon:hover{
-    color: grey;
+    color: lightgray;
 }
 
 .review-modal .gallery{

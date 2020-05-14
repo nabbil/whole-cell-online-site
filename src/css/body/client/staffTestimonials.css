@@ -91,25 +91,26 @@
   justify-content:center;
   align-items:center;
   text-align: center;
+  border: 8px solid #cc9a4f;
 }
 
 .staff-testimonials .video-wrapper:hover {
     cursor: pointer;
-    border: 8px solid grey;
+    border: 8px solid lightgray;
 }
 
 .staff-testimonials .video-wrapper:hover .video-icon{
   cursor: pointer;
-  color: grey;
+  color: lightgray;
 }
 
 .staff-testimonials .video-icon{
-  color: white;
+  color: #cc9a4f;
   font-size: 80px;
 }
 
 .staff-testimonials .video-icon:hover{
-  color: grey;
+  color: lightgray;
 }
 
 @media(max-width: 767px){

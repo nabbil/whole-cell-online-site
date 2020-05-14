@@ -38,6 +38,7 @@ class ReviewModal extends Component{
 
         <Modal 
         modalClassName="review-modal"
+        contentClassName="review-modal-content"
         isOpen={this.props.reviewModal} 
         toggle={() => this.props.toggleReviewModal()}
         centered
