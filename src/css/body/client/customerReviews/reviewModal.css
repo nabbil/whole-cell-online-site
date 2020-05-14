@@ -39,12 +39,12 @@
       border: 5px solid lightgray;
   }
 
-  .review-modal .video-container{
+  .review-modal .image-container{
       margin-left: 10px;
       position: relative;
   }
 
-  .review-modal .video-wrapper{
+  .review-modal .image-wrapper{
     position: absolute;
     left: 0;
     top: 0;
@@ -57,22 +57,22 @@
     border: 5px solid #cc9a4f;
   }
 
-  .review-modal .video-wrapper:hover {
+  .review-modal .image-wrapper:hover {
       cursor: pointer;
       border: 5px solid lightgray;
   }
 
-  .review-modal .video-wrapper:hover .video-icon{
+  .review-modal .image-wrapper:hover .image-icon{
     cursor: pointer;
     color: lightgray;
 }
 
-  .review-modal .video-icon{
+  .review-modal .image-icon{
     color: #cc9a4f;
     font-size: 60px;
   }
 
-  .review-modal .video-icon:hover{
+  .review-modal .image-icon:hover{
     color: lightgray;
 }
 

@@ -53,9 +53,10 @@ class ReviewModal extends Component{
                 Review by another satisfactory whole cell customer
             </p>
             <div className="gallery">
-            <div className="video-container">
-                <ReactPlayer className="video" url={review.video} width={100} height={100}/>
-                <div className="video-wrapper" onClick={() => this.toggleVideoModal(review.video)}><i className="far fa-play-circle video-icon"></i></div>
+            <div className="image-container">
+                {/* <ReactPlayer className="video" url={review.video} width={100} height={100}/> */}
+                <img className="image" src={review.image} width="100" height="100"/>
+                <div className="image-wrapper" onClick={() => this.toggleVideoModal(review.video)}><i className="far fa-play-circle image-icon"></i></div>
             </div>
             </div>
             <VideoModal
