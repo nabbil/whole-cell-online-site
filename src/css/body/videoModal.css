@@ -1,6 +1,11 @@
+
+
 .video-modal .body{
     padding: 0 !important;
 }
+/* .video-modal{
+    width: 100%;
+} */
 
 .video-modal .video{
     width: 100% !important;
@@ -15,4 +20,10 @@
     background-color: transparent;
     border: none;
     border-radius: 0;
+}
+/* .video-modal-content{
+    width: 100%;
+} */
+
+@media(min-width: 767px){
 }

@@ -2,19 +2,26 @@ import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
 
 import '../../../css/body/client/staffTestimonials.css'
-// import TestimonialsSlider from './TestimonialsSlider'
+
+
+import Video1 from '../../../assets/client/customerReviews/8.mp4'
+import Video2 from '../../../assets/client/customerReviews/7.mp4'
+import Video3 from '../../../assets/client/customerReviews/5.mp4'
+
 import VideoModal from '../VideoModal'
 
 class StaffTestimonials extends Component {
     constructor(props){
         super(props);
         this.state = {
-            videoModal: false
+            videoModal: false,
+            video: []
         }
     }
-    toggleVideoModal = () => {
+    toggleVideoModal = (video) => {
         this.setState({
-            videoModal:!this.state.videoModal
+            videoModal:!this.state.videoModal,
+            video: video
         })
       }
     render() {
@@ -33,20 +40,21 @@ class StaffTestimonials extends Component {
                             </p>
                             </span>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s'/>
-                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle video-icon"></i></div>
+                                <ReactPlayer className="video" controls url={Video1}/>
+                                <div className="video-wrapper" onClick={() => this.toggleVideoModal(Video1)}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s'/>
-                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle video-icon"></i></div>
+                                <ReactPlayer className="video" controls url={Video2}/>
+                                <div className="video-wrapper" onClick={() => this.toggleVideoModal(Video2)}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s'/>
-                                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle video-icon"></i></div>
+                                <ReactPlayer className="video" controls url={Video3}/>
+                                <div className="video-wrapper" onClick={() => this.toggleVideoModal(Video3)}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <VideoModal
                                             videoModal={this.state.videoModal}
                                             toggleVideoModal={this.toggleVideoModal}
+                                            video={this.state.video}
                                         />
                         </div>
                     </div>

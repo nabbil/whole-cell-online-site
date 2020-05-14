@@ -12,6 +12,7 @@ class VideoModal extends Component{
       return (
         <Modal
         modalClassName="video-modal"
+        contentClassName="video-modal-content"
         isOpen={this.props.videoModal}
         centered
         external={externalCloseBtn}
@@ -20,7 +21,7 @@ class VideoModal extends Component{
         >
           <ModalBody className="body">
             <div className="container">
-              <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s'/>
+              <ReactPlayer className="video" controls url={this.props.video}/>
             </div>  
           </ModalBody>
         </Modal>

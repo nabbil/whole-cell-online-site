@@ -15,7 +15,8 @@ class ReviewModal extends Component{
         super(props)
         this.state={
             imgModal: false,
-            videoModal: false
+            videoModal: false,
+            vedio:[]
         }
     }
 
@@ -24,9 +25,10 @@ class ReviewModal extends Component{
             imgModal: !this.state.imgModal
         })
     }
-    toggleVideoModal = () => {
+    toggleVideoModal = (vedio) => {
         this.setState({
-            videoModal: !this.state.videoModal
+            videoModal: !this.state.videoModal,
+            vedio: vedio
         })
     }
     render(){
@@ -41,23 +43,24 @@ class ReviewModal extends Component{
         centered
         backdropClassName="review-modal-backdrop">
         <ModalHeader toggle={() => this.props.toggleReviewModal()}  className="modal-header modal-title">
-            <img className="rounded-circle" alt={"users here"} src={`https://source.unsplash.com/random/${review.id}`} height={56} width={56} />
-            <h5>{review.username}</h5>
+            <img className="rounded-circle" alt={"users here"} src={review.image} height={56} width={56} />
+            <h5>{review.name}</h5>
         </ModalHeader>
         <ModalBody>
             <h5 className="text-center">5 Stars</h5>
             <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quidem ex nesciunt iste quia, dignissimos non debitis enim similique! Repudiandae facilis vel adipisci dolores iusto!
+                Review by another satisfactory whole cell customer
             </p>
             <div className="gallery">
             <div className="video-container">
-                <ReactPlayer className="video" controls url='https://www.youtube.com/watch?v=ocNWpcLa9W4&t=47s' width={100} height={100}/>
-                <div className="video-wrapper" onClick={() => this.toggleVideoModal()}><i className="far fa-play-circle fa-4x video-icon"></i></div>
+                <ReactPlayer className="video" url={review.video} width={100} height={100}/>
+                <div className="video-wrapper" onClick={() => this.toggleVideoModal(review.video)}><i className="far fa-play-circle fa-4x video-icon"></i></div>
             </div>
             </div>
             <VideoModal
             videoModal={this.state.videoModal}
             toggleVideoModal={this.toggleVideoModal}
+            video={this.state.video}
             />
         
         </ModalBody>
