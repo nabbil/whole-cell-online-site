@@ -3,15 +3,13 @@ import ReactPlayer from 'react-player'
 
 import '../../../css/body/client/staffTestimonials.css'
 
+import Img1 from '../../../assets/client/customerReviews/5_img.jpg'
+import Img2 from '../../../assets/client/customerReviews/8_img.jpg'
+import Img3 from '../../../assets/client/customerReviews/7_img.jpg'
 
-import Img1 from '../../../assets/client/customerReviews/8_img.jpg'
-import Img2 from '../../../assets/client/customerReviews/7_img.jpg'
-import Img3 from '../../../assets/client/customerReviews/5_img.jpg'
-
-
-import Video1 from '../../../assets/client/customerReviews/8.mp4'
-import Video2 from '../../../assets/client/customerReviews/7.mp4'
-import Video3 from '../../../assets/client/customerReviews/5.mp4'
+import Video1 from '../../../assets/client/customerReviews/5.mp4'
+import Video2 from '../../../assets/client/customerReviews/8.mp4'
+import Video3 from '../../../assets/client/customerReviews/7.mp4'
 
 import VideoModal from '../VideoModal'
 
@@ -44,17 +42,19 @@ class StaffTestimonials extends Component {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa id mollitia temporibus ipsa quis repellat dolorum laborum error inventore nam.
                             </p>
                             </span>
-                            <div className="image-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <img className="image" src={Img1}/>
-                                <div className="image-wrapper" onClick={() => this.toggleVideoModal(Video1)}><i className="far fa-play-circle image-icon"></i></div>
-                            </div>
-                            <div className="image-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <img className="image" src={Img2}/>
-                                <div className="image-wrapper" onClick={() => this.toggleVideoModal(Video2)}><i className="far fa-play-circle image-icon"></i></div>
-                            </div>
-                            <div className="image-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <img className="image" src={Img3}/>
-                                <div className="image-wrapper" onClick={() => this.toggleVideoModal(Video3)}><i className="far fa-play-circle image-icon"></i></div>
+                            <div className="testimonials-list">
+                                <div className="image-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
+                                    <img className="image" src={Img1}/>
+                                    <div className="image-wrapper" onClick={() => this.toggleVideoModal(Video1)}><i className="far fa-play-circle image-icon"></i></div>
+                                </div>
+                                <div className="image-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
+                                    <img className="image" src={Img2}/>
+                                    <div className="image-wrapper" onClick={() => this.toggleVideoModal(Video2)}><i className="far fa-play-circle image-icon"></i></div>
+                                </div>
+                                <div className="image-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
+                                    <img className="image" src={Img3}/>
+                                    <div className="image-wrapper" onClick={() => this.toggleVideoModal(Video3)}><i className="far fa-play-circle image-icon"></i></div>
+                                </div>
                             </div>
                             <VideoModal
                                             videoModal={this.state.videoModal}

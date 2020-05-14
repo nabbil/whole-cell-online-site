@@ -89,7 +89,7 @@
     }
   }
 
-  @media(max-width: 320px){
+  @media(max-width: 576px) and (orientation: landscape){
     .join-team .content h1{
       font-size: 25px;
     }
@@ -102,8 +102,23 @@
     }
   }
 
+
   @media(max-width: 500px){
       
+    .join-team .content h5{
+        font-size: 12px;
+    }
+  }
+
+  
+  @media(max-width: 320px){
+    .join-team .content h1{
+      font-size: 25px;
+    }
+
+    .join-team .content p{
+      font-size: 12px;
+    }
     .join-team .content h5{
         font-size: 12px;
     }

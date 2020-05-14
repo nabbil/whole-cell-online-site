@@ -1,6 +1,6 @@
 /* 
   
-  .accessories{
+  .repair{
       position: relative;
       width: 100%;
       height: 100vh;
@@ -8,7 +8,7 @@
     }
     
 
-    .accessories .bgimg{
+    .repair .bgimg{
       width: 100%;
       height: 100vh;
       background-image: url(../../../assets/services/accessories_bg.png);
@@ -18,7 +18,7 @@
       background-position: center;
   }
     
-  .accessories .wrapper {
+  .repair .wrapper {
     position: absolute;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
@@ -28,7 +28,7 @@
   }
   
     
-    .accessories .content{
+    .repair .content{
       color: #f1f1f1;
       overflow: hidden;
       width: 100%;
@@ -38,28 +38,28 @@
       justify-content: center;
     }
   
-    .accessories .content p,h1{
+    .repair .content p,h1{
       flex: 1;
       text-align: center;
     }
 
-    .accessories .content h1{
+    .repair .content h1{
         color: #cc9a4f;
         
     }
 
     @media(max-width: 992px){
-      .accessories .content{
+      .repair .content{
         flex-direction: column;
       }
     }
 
     @media(max-width: 767px){
-      .accessories .content h1{
+      .repair .content h1{
         font-size: 35px;
       }
 
-      .accessories .content p{
+      .repair .content p{
         font-size: 15px;
       }
     }
@@ -152,6 +152,18 @@
 
     .repair .content p{
       font-size: 15px;
+    }
+  }
+  @media(max-width: 576px) and (orientation: landscape){
+    .repair .wrapper{
+      padding-bottom: 30px;
+    }
+    .repair .content h1{
+      font-size: 25px;
+    }
+
+    .repair .content p{
+      font-size: 12px;
     }
   }
 

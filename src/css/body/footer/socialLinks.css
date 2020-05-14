@@ -85,6 +85,19 @@
     }
   }
 
+  @media(max-width: 576px) and (orientation: landscape){
+    .social-links .content h1{
+      font-size: 25px;
+    }
+
+    .social-links .content p{
+      font-size: 12px;
+    }
+    .social-links .content .icon{
+      font-size: 20px;
+    }
+  }
+
   @media(max-width: 320px){
     .social-links .content h1{
       font-size: 25px;

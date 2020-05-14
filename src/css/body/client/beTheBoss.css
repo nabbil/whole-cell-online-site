@@ -67,6 +67,16 @@
     }
   }
 
+  @media(max-width: 576px) and (orientation: landscape){
+    .be-the-boss .content h1{
+      font-size: 25px;
+    }
+
+    .be-the-boss .content p{
+      font-size: 12px;
+    }
+  }
+
   @media(max-width: 320px){
     .be-the-boss .content h1{
       font-size: 25px;

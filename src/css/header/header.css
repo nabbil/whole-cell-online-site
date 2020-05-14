@@ -290,6 +290,12 @@
   }
 }
 
+@media(max-height: 777px){
+  /* .header .content h2{
+    font-size: 30px;
+  } */
+}
+
 
   @media(max-width: 767px){
     .page-border.left, .page-border.right, .page-border.bottom{
@@ -321,6 +327,13 @@
   }
 
   @media(max-width: 576px){
+  
+    .header .content h2{
+      font-size: 25px;
+    }
+  }
+
+  @media(max-width: 576px) and (orientation: landscape){
   
     .header .content h2{
       font-size: 25px;

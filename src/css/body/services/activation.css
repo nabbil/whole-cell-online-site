@@ -82,6 +82,19 @@
       }
     }
 
+    @media(max-width: 576px) and (orientation: landscape){
+      .activation .wrapper{
+        padding-bottom: 30px;
+      }
+      .activation .content h1{
+        font-size: 25px;
+      }
+
+      .activation .content p{
+        font-size: 12px;
+      }
+    }
+
     @media(max-width: 320px){
       .activation .content h1{
         font-size: 25px;
