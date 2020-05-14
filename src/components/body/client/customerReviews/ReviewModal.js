@@ -55,7 +55,7 @@ class ReviewModal extends Component{
             <div className="gallery">
             <div className="video-container">
                 <ReactPlayer className="video" url={review.video} width={100} height={100}/>
-                <div className="video-wrapper" onClick={() => this.toggleVideoModal(review.video)}><i className="far fa-play-circle fa-4x video-icon"></i></div>
+                <div className="video-wrapper" onClick={() => this.toggleVideoModal(review.video)}><i className="far fa-play-circle video-icon"></i></div>
             </div>
             </div>
             <VideoModal

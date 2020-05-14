@@ -145,6 +145,12 @@
 .staff-testimonials .video-icon{
   font-size: 60px;
 }
+.staff-testimonials .video-wrapper{
+  border: 6px solid #cc9a4f;
+}
+.staff-testimonials .video-wrapper:hover {
+  border: 6px solid lightgray;
+}
 
 }
 
@@ -174,5 +180,11 @@
 }
 .staff-testimonials .video-icon{
   font-size: 40px;
+}
+.staff-testimonials .video-wrapper{
+  border: 4px solid #cc9a4f;
+}
+.staff-testimonials .video-wrapper:hover {
+  border: 4px solid lightgray;
 }
 }
