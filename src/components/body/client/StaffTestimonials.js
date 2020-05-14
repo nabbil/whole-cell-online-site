@@ -40,15 +40,15 @@ class StaffTestimonials extends Component {
                             </p>
                             </span>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url={Video1}/>
+                                <ReactPlayer className="video" url={Video1}/>
                                 <div className="video-wrapper" onClick={() => this.toggleVideoModal(Video1)}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url={Video2}/>
+                                <ReactPlayer className="video" url={Video2}/>
                                 <div className="video-wrapper" onClick={() => this.toggleVideoModal(Video2)}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <div className="video-container" data-aos="fade-up" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
-                                <ReactPlayer className="video" controls url={Video3}/>
+                                <ReactPlayer className="video" url={Video3}/>
                                 <div className="video-wrapper" onClick={() => this.toggleVideoModal(Video3)}><i className="far fa-play-circle video-icon"></i></div>
                             </div>
                             <VideoModal

@@ -16,7 +16,7 @@ class ReviewModal extends Component{
         this.state={
             imgModal: false,
             videoModal: false,
-            vedio:[]
+            video:[]
         }
     }
 
@@ -25,10 +25,10 @@ class ReviewModal extends Component{
             imgModal: !this.state.imgModal
         })
     }
-    toggleVideoModal = (vedio) => {
+    toggleVideoModal = (video) => {
         this.setState({
             videoModal: !this.state.videoModal,
-            vedio: vedio
+            video: video
         })
     }
     render(){
