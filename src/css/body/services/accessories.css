@@ -86,6 +86,16 @@
       }
     }
 
+    @media(max-width: 767px) and (orientation: landscape){
+      .accessories .content h1{
+        font-size: 30px;
+      }
+
+      .accessories .content p{
+        font-size: 13px;
+      }
+    }
+
     @media(max-width: 576px) and (orientation: landscape){
       .accessories .wrapper{
         padding-bottom: 30px;
