@@ -139,6 +139,20 @@
     }
   }
 
+  
+  @media(max-width: 1000px) and (orientation: landscape){
+    .repair .wrapper{
+      padding-bottom: 30px;
+    }
+    .repair .content h1{
+      font-size: 25px;
+    }
+
+    .repair .content p{
+      font-size: 12px;
+    }
+  }
+
   @media(max-width: 992px){
     .repair .content{
       flex-direction: column;
@@ -164,20 +178,8 @@
       font-size: 13px;
     }
   }
-  @media(max-width: 576px) and (orientation: landscape){
-    .repair .wrapper{
-      padding-bottom: 30px;
-    }
-    .repair .content h1{
-      font-size: 25px;
-    }
 
-    .repair .content p{
-      font-size: 12px;
-    }
-  }
-
-  @media(max-width: 320px){
+  @media(max-width: 576px){
     .repair .content h1{
       font-size: 25px;
     }

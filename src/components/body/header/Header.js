@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-import BgVideo from '../../assets/bg.mp4'
+import BgVideo from '../../../assets/bg.mp4'
 import NavigationBar from './NavigationBar'
-import '../../css/header/header.css'
-import ImgLogo from '../../assets/logo.png'
+import '../../../css/body/header/header.css'
+import ImgLogo from '../../../assets/logo.png'
 
 class Header extends Component {
     constructor(props){
@@ -73,50 +73,6 @@ class Header extends Component {
                             <h2>Open To Public</h2>
                             <h2>Never Pay Retail!!!</h2>
                         </div>
-                    </div>
-                    <div className="page-border top">
-                    </div>
-                    <div className="page-border bottom">
-                    </div>
-                    <div className="page-border left border-pad">
-                    </div>
-                    <div className="page-border right border-pad">
-                    </div>
-                    <div className="page-border left">
-                        <ul>
-                            <li>
-                                <a href='https://www.youtube.com'>
-                                    <i className="fab fa-youtube icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='https://www.instagram.com'>
-                                    <i className="fab fa-instagram icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='https://www.google.com'>
-                                    <i className="fab fa-google icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='https://www.facebook.com'>
-                                    <i className="fab fa-facebook-f icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='https://www.snapchat.com'>
-                                    <i className="fab fa-snapchat-ghost icon"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='https://www.pinterest.com'>
-                                    <i className="fab fa-pinterest-p icon"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="page-border right">
                     </div>
                 </div>
                 <NavigationBar state={this.state.state1}/>

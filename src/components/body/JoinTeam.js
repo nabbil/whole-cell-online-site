@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Container,Row, Col} from 'react-bootstrap'
 
-import '../../../css/body/footer/joinTeam.css'
+import '../../css/body/joinTeam.css'
 
 class JoinTeam extends Component {
     render() {

@@ -1,76 +1,11 @@
-
-
-.header{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.header #video{
-    /* position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    object-fit: cover; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-}
-
-.header .wrapper {
-    position: absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  .header .content{
-      position: absolute;
-      bottom: 0;
-      z-index: 100;
-      color: #f1f1f1;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      width: 100%;
-      height: 100%;
-      padding: 50px 20px;
-      overflow: hidden;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  }
-  
-  .header .content .img-logo{
-    background-color: rgba(248, 247, 247, 0.3);
-    padding: 5px;
-    margin-bottom: 30px;
-    border: #cc9a4f 3px solid;
-    width: 80%;
-    height: auto;
-  }
-
-  .header .center-text h1{
-      color: #CC9A4F;
-  }
-
-  .page-border{
+.page-border{
     z-index: 1030;
     position: fixed;
     display: block;
     background-color: #cc9a4f;
   }
 
-  .page-border.left ul{
+  .page-border.left ul, .page-border.right ul{
     position: fixed;
     z-index: 1030;
     width: 25px;
@@ -85,8 +20,13 @@
     letter-spacing: 1.2px;
   }
 
-  .page-border.left ul > li{
+  .page-border.left ul > li, .page-border.right ul > li{
     padding: 3px 0;
+    color: white;
+    cursor: pointer;
+  }
+  .page-border.right ul > li .circle{
+      font-size: 8px;
   }
 
   .page-border.left ul a{
@@ -130,6 +70,10 @@
     letter-spacing: 1px;
     transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
     font-family: "Oswald", Helvetica, sans-serif;
+  }
+
+  .page-border.bottom span span{
+      color: white;
   }
 
   .state1 .page-border.left{
@@ -284,16 +228,6 @@
     height: 200px;
     width: 25px;
   }
-
-  .header .content h2{
-    font-size: 30px;
-  }
-}
-
-@media(max-height: 777px){
-  /* .header .content h2{
-    font-size: 30px;
-  } */
 }
 
 
@@ -324,26 +258,4 @@
       float: right;
       margin-right: 35px;
   }
-  }
-
-  @media(max-width: 576px){
-  
-    .header .content h2{
-      font-size: 25px;
-    }
-  }
-
-  @media(max-width: 576px) and (orientation: landscape){
-  
-    .header .content h2{
-      font-size: 25px;
-    }
-  }
-
-
-  @media(max-width: 400px){
-  
-    .header .content h2{
-      font-size: 20px;
-    }
   }

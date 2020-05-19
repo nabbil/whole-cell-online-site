@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import {Navbar, Nav, Container} from 'react-bootstrap'
-import '../../css/header/navigationBar.css'
+import '../../../css/body/header/navigationBar.css'
 import {Link} from 'react-router-dom'
-import Login from '../auth/login/Login'
+import Login from '../../auth/login/Login'
 
 class NavigationBar extends Component {
     constructor(props){

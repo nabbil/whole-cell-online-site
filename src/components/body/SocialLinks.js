@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Container,Row, Col} from 'react-bootstrap'
 
-import '../../../css/body/footer/socialLinks.css'
+import '../../css/body/socialLinks.css'
 
 class SocialLinks extends Component {
     render() {

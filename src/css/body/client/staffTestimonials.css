@@ -40,7 +40,8 @@
 
 .staff-testimonials .content h1{
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 5rem;
+  margin-bottom: 50px;
   background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
   background-repeat: repeat;
   background-position: 0 0;
@@ -114,18 +115,56 @@
   color: lightgray;
 }
 
+
+
+@media(max-width: 1000px) and (orientation: landscape){
+  .staff-testimonials .testimonials-list{
+    display: flex;
+  }
+  .staff-testimonials .content h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .staff-testimonials .content p{
+    font-size: 12px;
+  }
+  
+  .staff-testimonials .image{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.staff-testimonials .image-container{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.staff-testimonials .image-wrapper{
+  height: 100px;
+  width: 100px;
+}
+.staff-testimonials .image-icon{
+  font-size: 40px;
+}
+.staff-testimonials .image-wrapper{
+  border: 4px solid #cc9a4f;
+}
+.staff-testimonials .image-wrapper:hover {
+  border: 4px solid lightgray;
+}
+}
+
 @media(max-width: 767px){
   .staff-testimonials .content h1{
-    font-size: 35px;
+    font-size: 4rem;
+    margin-bottom: 40px;
   }
 
   .staff-testimonials .content p{
     font-size: 15px;
-  }
-}
-
-
-@media(max-width: 576px){
+  } 
   .staff-testimonials{
     height: 150vh;
 }
@@ -153,16 +192,13 @@
 .staff-testimonials .image-wrapper:hover {
   border: 6px solid lightgray;
 }
-
 }
 
-@media(max-width: 576px) and (orientation: landscape){
-  .staff-testimonials .testimonials-list{
-    display: flex;
-    /* flex-direction: column; */
-  }
+
+@media(max-width: 576px){
   .staff-testimonials .content h1{
-    font-size: 25px;
+    font-size: 2rem;
+    margin-bottom: 20px;
   }
 
   .staff-testimonials .content p{
@@ -193,39 +229,6 @@
 .staff-testimonials .image-wrapper:hover {
   border: 4px solid lightgray;
 }
+
 }
 
-@media(max-width: 320px){
-  .staff-testimonials .content h1{
-    font-size: 25px;
-  }
-
-  .staff-testimonials .content p{
-    font-size: 12px;
-  }
-  
-  .staff-testimonials .image{
-    width: 100px !important;
-    height: 100px !important;
-}
-
-.staff-testimonials .image-container{
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-}
-
-.staff-testimonials .image-wrapper{
-  height: 100px;
-  width: 100px;
-}
-.staff-testimonials .image-icon{
-  font-size: 40px;
-}
-.staff-testimonials .image-wrapper{
-  border: 4px solid #cc9a4f;
-}
-.staff-testimonials .image-wrapper:hover {
-  border: 4px solid lightgray;
-}
-}

@@ -69,6 +69,20 @@
         background-position: 20px -50px;
       }
     }
+    
+
+    @media(max-width: 1000px) and (orientation: landscape){
+      .accessories .wrapper{
+        padding-bottom: 30px;
+      }
+      .accessories .content h1{
+        font-size: 25px;
+      }
+
+      .accessories .content p{
+        font-size: 12px;
+      }
+    }
 
     @media(max-width: 992px){
       .accessories .content{
@@ -86,30 +100,7 @@
       }
     }
 
-    @media(max-width: 767px) and (orientation: landscape){
-      .accessories .content h1{
-        font-size: 30px;
-      }
-
-      .accessories .content p{
-        font-size: 13px;
-      }
-    }
-
-    @media(max-width: 576px) and (orientation: landscape){
-      .accessories .wrapper{
-        padding-bottom: 30px;
-      }
-      .accessories .content h1{
-        font-size: 25px;
-      }
-
-      .accessories .content p{
-        font-size: 12px;
-      }
-    }
-
-    @media(max-width: 320px){
+    @media(max-width: 576px){
       .accessories .content h1{
         font-size: 25px;
       }

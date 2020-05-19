@@ -46,6 +46,12 @@
 
 }
 
+@media(max-width: 1000px) and (orientation: landscape){
+    .services .content{
+        font-size: 5vh;
+    }
+}
+
 @media(max-width: 767px){
     .services .content{
         font-size: 5vh;
@@ -56,3 +62,4 @@
         font-size: 4vh;
     }
 }
+

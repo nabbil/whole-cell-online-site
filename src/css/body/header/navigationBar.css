@@ -37,16 +37,12 @@
   font-size: 20px;
 }
 
-.state1 .header-navbar .logo span{
+.header-navbar .logo span{
     color: #cc9a4f;
 }
-
-.state2 .header-navbar .logo{
-    color: black;
-  }
   
   .state2 .header-navbar .logo span{
-      color: white;
+      color: black;
   }
 
 .header-navbar .toggle{
@@ -74,21 +70,18 @@
       color: black;
   }
 
-  .state1 .header-navbar .logo{
-      color: black;
+  .header-navbar .logo{
+      color: white;
     }
     
-    .state1 .header-navbar .logo span{
-        color: white;
+  .header-navbar .logo span{
+        color: black;
     }
 }
 
 
 
 @media(max-width: 767px){
-  /* .state1 .header-navbar .date{
-    color: black;
-} */
     .header-navbar .list{
         transition: 500ms ease;
         background-color: rgba(0,0,0, 0.5);
@@ -105,6 +98,9 @@
     .state1 .header-navbar .date{
       color: #cc9a4f;
   }
+  .state2 .header-navbar .date{
+    color: #cc9a4f;
+}
 }
 
 @media(max-width: 443px){
