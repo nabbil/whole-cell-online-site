@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whole-cell-online-site/precache-manifest.ff2faab14f1f5c77752b8b8c2312784a.js"
+  "/whole-cell-online-site/precache-manifest.e5b52919e8d9c27dd684031cc530fe26.js"
 );
 
 self.addEventListener('message', (event) => {

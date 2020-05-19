@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/whole-cell-online-site/static/css/main.100c06f8.chunk.css",
-    "main.js": "/whole-cell-online-site/static/js/main.7628140a.chunk.js",
-    "main.js.map": "/whole-cell-online-site/static/js/main.7628140a.chunk.js.map",
+    "main.css": "/whole-cell-online-site/static/css/main.04c824d8.chunk.css",
+    "main.js": "/whole-cell-online-site/static/js/main.11e239fd.chunk.js",
+    "main.js.map": "/whole-cell-online-site/static/js/main.11e239fd.chunk.js.map",
     "runtime-main.js": "/whole-cell-online-site/static/js/runtime-main.e0f45547.js",
     "runtime-main.js.map": "/whole-cell-online-site/static/js/runtime-main.e0f45547.js.map",
     "static/css/2.508a7220.chunk.css": "/whole-cell-online-site/static/css/2.508a7220.chunk.css",
-    "static/js/2.81e7cfd0.chunk.js": "/whole-cell-online-site/static/js/2.81e7cfd0.chunk.js",
-    "static/js/2.81e7cfd0.chunk.js.map": "/whole-cell-online-site/static/js/2.81e7cfd0.chunk.js.map",
+    "static/js/2.a13d6927.chunk.js": "/whole-cell-online-site/static/js/2.a13d6927.chunk.js",
+    "static/js/2.a13d6927.chunk.js.map": "/whole-cell-online-site/static/js/2.a13d6927.chunk.js.map",
     "index.html": "/whole-cell-online-site/index.html",
-    "precache-manifest.ff2faab14f1f5c77752b8b8c2312784a.js": "/whole-cell-online-site/precache-manifest.ff2faab14f1f5c77752b8b8c2312784a.js",
+    "precache-manifest.e5b52919e8d9c27dd684031cc530fe26.js": "/whole-cell-online-site/precache-manifest.e5b52919e8d9c27dd684031cc530fe26.js",
     "service-worker.js": "/whole-cell-online-site/service-worker.js",
     "static/css/2.508a7220.chunk.css.map": "/whole-cell-online-site/static/css/2.508a7220.chunk.css.map",
-    "static/css/main.100c06f8.chunk.css.map": "/whole-cell-online-site/static/css/main.100c06f8.chunk.css.map",
-    "static/js/2.81e7cfd0.chunk.js.LICENSE.txt": "/whole-cell-online-site/static/js/2.81e7cfd0.chunk.js.LICENSE.txt",
+    "static/css/main.04c824d8.chunk.css.map": "/whole-cell-online-site/static/css/main.04c824d8.chunk.css.map",
+    "static/js/2.a13d6927.chunk.js.LICENSE.txt": "/whole-cell-online-site/static/js/2.a13d6927.chunk.js.LICENSE.txt",
     "static/media/1.mp4": "/whole-cell-online-site/static/media/1.8e086587.mp4",
     "static/media/1_img.jpg": "/whole-cell-online-site/static/media/1_img.d4147462.jpg",
     "static/media/2.mp4": "/whole-cell-online-site/static/media/2.6c3cd7b5.mp4",
@@ -32,7 +32,6 @@
     "static/media/8_img.jpg": "/whole-cell-online-site/static/media/8_img.f55a485a.jpg",
     "static/media/9.mp4": "/whole-cell-online-site/static/media/9.070c1c58.mp4",
     "static/media/9_img.jpg": "/whole-cell-online-site/static/media/9_img.5318ff7a.jpg",
-    "static/media/about.css": "/whole-cell-online-site/static/media/about_bg.c4ca910a.jpg",
     "static/media/introductionSection.css": "/whole-cell-online-site/static/media/repair_banner.9ff4c21f.png",
     "static/media/accessories.css": "/whole-cell-online-site/static/media/accessories_bg.7f65234b.jpg",
     "static/media/activation.css": "/whole-cell-online-site/static/media/activation.28816891.png",
@@ -45,18 +44,15 @@
     "static/media/repair.webm": "/whole-cell-online-site/static/media/repair.a7427fea.webm",
     "static/media/review_video.mp4": "/whole-cell-online-site/static/media/review_video.4648aa56.mp4",
     "static/media/services.css": "/whole-cell-online-site/static/media/services.2e08c236.jpg",
-    "static/media/shopWithUs.css": "/whole-cell-online-site/static/media/shop_with_us_bg.a31b7cba.jpg",
     "static/media/slick-theme.css": "/whole-cell-online-site/static/media/slick.f97e3bbf.svg",
     "static/media/socialLinks.css": "/whole-cell-online-site/static/media/social_links_bg.d8c5d464.jpg",
-    "static/media/staffTestimonials.css": "/whole-cell-online-site/static/media/staff_bg.4c1a3349.jpg",
-    "static/media/warehouse.jpg": "/whole-cell-online-site/static/media/warehouse.20d7cb9d.jpg",
-    "static/media/work.css": "/whole-cell-online-site/static/media/work_bg.691495d0.jpg"
+    "static/media/staffTestimonials.css": "/whole-cell-online-site/static/media/staff_bg.4c1a3349.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e0f45547.js",
     "static/css/2.508a7220.chunk.css",
-    "static/js/2.81e7cfd0.chunk.js",
-    "static/css/main.100c06f8.chunk.css",
-    "static/js/main.7628140a.chunk.js"
+    "static/js/2.a13d6927.chunk.js",
+    "static/css/main.04c824d8.chunk.css",
+    "static/js/main.11e239fd.chunk.js"
   ]
 }
