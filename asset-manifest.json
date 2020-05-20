@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/whole-cell-online-site/static/css/main.04c824d8.chunk.css",
-    "main.js": "/whole-cell-online-site/static/js/main.11e239fd.chunk.js",
-    "main.js.map": "/whole-cell-online-site/static/js/main.11e239fd.chunk.js.map",
+    "main.css": "/whole-cell-online-site/static/css/main.0af3ea8a.chunk.css",
+    "main.js": "/whole-cell-online-site/static/js/main.780df14b.chunk.js",
+    "main.js.map": "/whole-cell-online-site/static/js/main.780df14b.chunk.js.map",
     "runtime-main.js": "/whole-cell-online-site/static/js/runtime-main.e0f45547.js",
     "runtime-main.js.map": "/whole-cell-online-site/static/js/runtime-main.e0f45547.js.map",
     "static/css/2.508a7220.chunk.css": "/whole-cell-online-site/static/css/2.508a7220.chunk.css",
-    "static/js/2.a13d6927.chunk.js": "/whole-cell-online-site/static/js/2.a13d6927.chunk.js",
-    "static/js/2.a13d6927.chunk.js.map": "/whole-cell-online-site/static/js/2.a13d6927.chunk.js.map",
+    "static/js/2.467a6a3f.chunk.js": "/whole-cell-online-site/static/js/2.467a6a3f.chunk.js",
+    "static/js/2.467a6a3f.chunk.js.map": "/whole-cell-online-site/static/js/2.467a6a3f.chunk.js.map",
     "index.html": "/whole-cell-online-site/index.html",
-    "precache-manifest.e5b52919e8d9c27dd684031cc530fe26.js": "/whole-cell-online-site/precache-manifest.e5b52919e8d9c27dd684031cc530fe26.js",
+    "precache-manifest.db727afd7a3cb2eb23bb6afd343fee7e.js": "/whole-cell-online-site/precache-manifest.db727afd7a3cb2eb23bb6afd343fee7e.js",
     "service-worker.js": "/whole-cell-online-site/service-worker.js",
     "static/css/2.508a7220.chunk.css.map": "/whole-cell-online-site/static/css/2.508a7220.chunk.css.map",
-    "static/css/main.04c824d8.chunk.css.map": "/whole-cell-online-site/static/css/main.04c824d8.chunk.css.map",
-    "static/js/2.a13d6927.chunk.js.LICENSE.txt": "/whole-cell-online-site/static/js/2.a13d6927.chunk.js.LICENSE.txt",
+    "static/css/main.0af3ea8a.chunk.css.map": "/whole-cell-online-site/static/css/main.0af3ea8a.chunk.css.map",
+    "static/js/2.467a6a3f.chunk.js.LICENSE.txt": "/whole-cell-online-site/static/js/2.467a6a3f.chunk.js.LICENSE.txt",
     "static/media/1.mp4": "/whole-cell-online-site/static/media/1.8e086587.mp4",
     "static/media/1_img.jpg": "/whole-cell-online-site/static/media/1_img.d4147462.jpg",
     "static/media/2.mp4": "/whole-cell-online-site/static/media/2.6c3cd7b5.mp4",
@@ -51,8 +51,8 @@
   "entrypoints": [
     "static/js/runtime-main.e0f45547.js",
     "static/css/2.508a7220.chunk.css",
-    "static/js/2.a13d6927.chunk.js",
-    "static/css/main.04c824d8.chunk.css",
-    "static/js/main.11e239fd.chunk.js"
+    "static/js/2.467a6a3f.chunk.js",
+    "static/css/main.0af3ea8a.chunk.css",
+    "static/js/main.780df14b.chunk.js"
   ]
 }
