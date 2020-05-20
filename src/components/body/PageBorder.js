@@ -77,35 +77,35 @@ class PageBorder extends Component {
                             <li onClick={this.props.scrollToHeader}>
                                 {
                                     this.props.headerDot ? 
-                                    <i className="far fa-circle circle"></i> :
+                                    <i className="far fa-circle"></i> :
                                     <i className="fas fa-circle circle"></i>
                                 }
                             </li>
                             <li onClick={this.props.scrollToServices}>
                                 {
                                     this.props.servicesDot ? 
-                                    <i className="far fa-circle circle"></i> :
+                                    <i className="far fa-circle"></i> :
                                     <i className="fas fa-circle circle"></i>
                                 }
                             </li>
                             <li onClick={this.props.scrollToClient}>
                                 {
                                     this.props.clientDot ? 
-                                    <i className="far fa-circle circle"></i> :
+                                    <i className="far fa-circle"></i> :
                                     <i className="fas fa-circle circle"></i>
                                 }
                             </li>
                             <li onClick={this.props.scrollToSocialLinks}>
                                 {
                                     this.props.socialLinksDot ? 
-                                    <i className="far fa-circle circle"></i> :
+                                    <i className="far fa-circle"></i> :
                                     <i className="fas fa-circle circle"></i>
                                 }
                             </li>
                             <li onClick={this.props.scrollToJoinTeam}>
                                 {
                                     this.props.joinTeamDot ? 
-                                    <i className="far fa-circle circle"></i> :
+                                    <i className="far fa-circle"></i> :
                                     <i className="fas fa-circle circle"></i>
                                 }
                             </li>

@@ -22,7 +22,71 @@ class Body extends Component {
         this.client = React.createRef()
         this.socialLinks = React.createRef()
         this.joinTeam = React.createRef()
-    }
+    } 
+
+    
+    // componentDidMount() {
+    //     // console.log(document.getElementById("header").offsetTop)
+    //     document.addEventListener("scroll", () => {
+    //         if(window.scrollY < document.getElementById("services").offsetTop)
+    //         {
+        
+    //             this.setState({
+    //                 headerDot: true,
+    //                 servicesDot: false,
+    //                 clientDot: false,
+    //                 socialLinksDot: false,
+    //                 joinTeamDot: false
+        
+    //             })
+    //         } 
+    //         if(window.scrollY >= document.getElementById("services").offsetTop )
+    //         {
+    //             this.setState({
+    //                 headerDot: false,
+    //                 servicesDot: true,
+    //                 clientDot: false,
+    //                 socialLinksDot: false,
+    //                 joinTeamDot: false
+        
+    //             })
+    //         }
+    //         if(window.scrollY >= document.getElementById("client").offsetTop)
+    //         {
+    //             this.setState({
+    //                 headerDot: false,
+    //                 servicesDot: false,
+    //                 clientDot: true,
+    //                 socialLinksDot: false,
+    //                 joinTeamDot: false
+        
+    //             })
+    //         }
+    //         if(window.scrollY >= document.getElementById("socialLinks").offsetTop)
+    //         {
+    //             this.setState({
+    //                 headerDot: false,
+    //                 servicesDot: false,
+    //                 clientDot: false,
+    //                 socialLinksDot: true,
+    //                 joinTeamDot: false
+        
+    //             })
+    //         }
+    //         if(window.scrollY >= document.getElementById("joinTeam").offsetTop)
+    //         {
+    //             this.setState({
+    //                 headerDot: false,
+    //                 servicesDot: false,
+    //                 clientDot: false,
+    //                 socialLinksDot: false,
+    //                 joinTeamDot: true
+        
+    //             })
+    //         }
+    //     })
+        
+    // } 
     
 
     scrollToHeader = (event) => {
@@ -107,6 +171,8 @@ class Body extends Component {
         })
     }
     
+
+    
     render() {
         return (
             <div>
@@ -123,15 +189,29 @@ class Body extends Component {
                 socialLinksDot={this.state.socialLinksDot}
                 joinTeamDot={this.state.joinTeamDot}/>
 
-                <section ref={this.header}><Header /></section>
+                <section  id="header" ref={this.header}>
+                    <Header
+                        headerDot={this.state.headerDot}
+                        scrollToHeader={this.scrollToHeader}
+                        scrollToServices={this.scrollToServices}
+                        scrollToClient={this.scrollToClient}
+                        scrollToSocialLinks={this.scrollToSocialLinks}
+                        scrollToJoinTeam={this.scrollToJoinTeam}
+                        headerDot={this.state.headerDot}
+                        servicesDot={this.state.servicesDot}
+                        clientDot={this.state.clientDot}
+                        socialLinksDot={this.state.socialLinksDot}
+                        joinTeamDot={this.state.joinTeamDot}
+                    />
+                </section>
 
-                <section ref={this.services}><Services /></section>
+                <section id="services" ref={this.services}><Services/></section>
 
-                <section ref={this.client}><Client /></section>
+                <section id="client" ref={this.client}><Client/></section>
 
-                <section ref={this.socialLinks}><SocialLinks /></section>
+                <section id="socialLinks" ref={this.socialLinks}><SocialLinks/></section>
 
-                <section ref={this.joinTeam}><JoinTeam /></section>
+                <section id="joinTeam" ref={this.joinTeam}><JoinTeam/></section>
             </div>
         )
     }

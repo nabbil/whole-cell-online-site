@@ -57,6 +57,7 @@ class Header extends Component {
     // });
     }
 
+    
     render() {
         return (
             <div className={this.state.state1}>
@@ -75,7 +76,19 @@ class Header extends Component {
                         </div>
                     </div>
                 </div>
-                <NavigationBar state={this.state.state1}/>
+                <NavigationBar 
+                state={this.state.state1} 
+                headerDot={this.props.headerDot}
+                servicesDot={this.props.servicesDot}
+                clientDot={this.props.clientDot}
+                socialLinksDot={this.props.socialLinksDot}
+                joinTeamDot={this.props.joinTeamDot}
+                scrollToHeader={this.props.scrollToHeader}
+                scrollToServices={this.props.scrollToServices}
+                scrollToClient={this.props.scrollToClient}
+                scrollToSocialLinks={this.props.scrollToSocialLinks}
+                scrollToJoinTeam={this.props.scrollToJoinTeam}
+                />
             </div>
         )
     }

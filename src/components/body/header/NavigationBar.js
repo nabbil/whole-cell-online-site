@@ -89,7 +89,7 @@ class NavigationBar extends Component {
     render() {
         return (
             <div className={this.props.state}>
-                <Navbar className="header-navbar" collapseOnSelect expand="md" variant="dark" fixed="top">
+                <Navbar className="header-navbar" collapseOnSelect expand="xl" variant="dark" fixed="top">
                         <Nav>
                             <Navbar.Brand className="logo" href="/whole-cell-online-site/">Whole Cell<span> Accessories</span></Navbar.Brand>
                         </Nav>
@@ -97,7 +97,33 @@ class NavigationBar extends Component {
                          className="toggle" aria-controls="responsive-navbar-nav" /> 
                         <Navbar.Collapse className="list" id="responsive-navbar-nav" >
                             <Nav className="ml-auto">
-                                <Navbar.Brand className="date" >{this.getDate()}</Navbar.Brand>
+                                {
+                                    this.props.headerDot ?
+                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToHeader}>Home</Navbar.Brand> :
+                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToHeader}>Home</Navbar.Brand>
+                                }
+                                {
+                                    this.props.servicesDot ?
+                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToServices}>Services</Navbar.Brand> :
+                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToServices}>Services</Navbar.Brand>
+                                }
+                                {
+                                    this.props.clientDot ?
+                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToClient}>Client</Navbar.Brand> :
+                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToClient}>Client</Navbar.Brand>
+                                }
+                                {
+                                    this.props.socialLinksDot ?
+                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToSocialLinks}>Social Links</Navbar.Brand> :
+                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToSocialLinks}>Social Links</Navbar.Brand>
+                                }
+                                {
+                                    this.props.joinTeamDot ?
+                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToJoinTeam}>Join Team</Navbar.Brand> :
+                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToJoinTeam}>Join Team</Navbar.Brand>
+                                }
+                            <Navbar.Brand className="nav-item">Contacts</Navbar.Brand>
+                                <Navbar.Brand className="nav-item" >{this.getDate()}</Navbar.Brand>
                                 {
                                     this.state.loggedin ? 
                                     
