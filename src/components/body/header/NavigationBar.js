@@ -122,7 +122,11 @@ class NavigationBar extends Component {
                                     <Navbar.Brand className="nav-item active" onClick={this.props.scrollToJoinTeam}>Join Team</Navbar.Brand> :
                                     <Navbar.Brand className="nav-item" onClick={this.props.scrollToJoinTeam}>Join Team</Navbar.Brand>
                                 }
-                            <Navbar.Brand className="nav-item">Contacts</Navbar.Brand>
+                                {
+                                    this.props.contactDot ?
+                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToContact}>Contact</Navbar.Brand> :
+                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToContact}>Contact</Navbar.Brand>
+                                }
                                 <Navbar.Brand className="nav-item" >{this.getDate()}</Navbar.Brand>
                                 {
                                     this.state.loggedin ? 

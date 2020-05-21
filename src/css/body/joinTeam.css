@@ -91,7 +91,7 @@
     }
   }
 
-  @media(max-width: 576px) and (orientation: landscape){
+  @media(max-width: 1000px) and (orientation: landscape){
     .join-team .content h1{
       font-size: 2rem;
       margin-bottom: 20px;

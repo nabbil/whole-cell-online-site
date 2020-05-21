@@ -83,11 +83,13 @@ class Header extends Component {
                 clientDot={this.props.clientDot}
                 socialLinksDot={this.props.socialLinksDot}
                 joinTeamDot={this.props.joinTeamDot}
+                contactDot={this.props.contactDot}
                 scrollToHeader={this.props.scrollToHeader}
                 scrollToServices={this.props.scrollToServices}
                 scrollToClient={this.props.scrollToClient}
                 scrollToSocialLinks={this.props.scrollToSocialLinks}
                 scrollToJoinTeam={this.props.scrollToJoinTeam}
+                scrollToContact={this.props.scrollToContact}
                 />
             </div>
         )

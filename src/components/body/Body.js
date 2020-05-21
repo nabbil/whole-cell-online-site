@@ -6,6 +6,7 @@ import Services from './services/Services'
 import Client from './client/Client'
 import SocialLinks from './SocialLinks'
 import JoinTeam from './JoinTeam'
+import Contact from './Contact'
 
 class Body extends Component {
     constructor(props){
@@ -15,78 +16,97 @@ class Body extends Component {
             servicesDot: false,
             clientDot: false,
             socialLinksDot: false,
-            joinTeamDot: false
+            joinTeamDot: false,
+            contactDot: false
         }
         this.header = React.createRef()
         this.services = React.createRef()
         this.client = React.createRef()
         this.socialLinks = React.createRef()
         this.joinTeam = React.createRef()
+        this.contact = React.createRef()
     } 
 
     
-    // componentDidMount() {
-    //     // console.log(document.getElementById("header").offsetTop)
-    //     document.addEventListener("scroll", () => {
-    //         if(window.scrollY < document.getElementById("services").offsetTop)
-    //         {
+    componentDidMount() {
+        // console.log(document.getElementById("header").offsetTop)
+        document.addEventListener("scroll", () => {
+            if(window.scrollY >= document.getElementById("header").offsetTop)
+            {
         
-    //             this.setState({
-    //                 headerDot: true,
-    //                 servicesDot: false,
-    //                 clientDot: false,
-    //                 socialLinksDot: false,
-    //                 joinTeamDot: false
+                this.setState({
+                    headerDot: true,
+                    servicesDot: false,
+                    clientDot: false,
+                    socialLinksDot: false,
+                    joinTeamDot: false,
+                    contactDot: false
         
-    //             })
-    //         } 
-    //         if(window.scrollY >= document.getElementById("services").offsetTop )
-    //         {
-    //             this.setState({
-    //                 headerDot: false,
-    //                 servicesDot: true,
-    //                 clientDot: false,
-    //                 socialLinksDot: false,
-    //                 joinTeamDot: false
+                })
+            } 
+            if(window.scrollY >= document.getElementById("services").offsetTop-50 )
+            {
+                this.setState({
+                    headerDot: false,
+                    servicesDot: true,
+                    clientDot: false,
+                    socialLinksDot: false,
+                    joinTeamDot: false,
+                    contactDot: false
         
-    //             })
-    //         }
-    //         if(window.scrollY >= document.getElementById("client").offsetTop)
-    //         {
-    //             this.setState({
-    //                 headerDot: false,
-    //                 servicesDot: false,
-    //                 clientDot: true,
-    //                 socialLinksDot: false,
-    //                 joinTeamDot: false
+                })
+            }
+            if(window.scrollY >= document.getElementById("client").offsetTop - 50)
+            {
+                this.setState({
+                    headerDot: false,
+                    servicesDot: false,
+                    clientDot: true,
+                    socialLinksDot: false,
+                    joinTeamDot: false,
+                    contactDot: false
         
-    //             })
-    //         }
-    //         if(window.scrollY >= document.getElementById("socialLinks").offsetTop)
-    //         {
-    //             this.setState({
-    //                 headerDot: false,
-    //                 servicesDot: false,
-    //                 clientDot: false,
-    //                 socialLinksDot: true,
-    //                 joinTeamDot: false
+                })
+            }
+            if(window.scrollY >= document.getElementById("socialLinks").offsetTop-50)
+            {
+                this.setState({
+                    headerDot: false,
+                    servicesDot: false,
+                    clientDot: false,
+                    socialLinksDot: true,
+                    joinTeamDot: false,
+                    contactDot: false
         
-    //             })
-    //         }
-    //         if(window.scrollY >= document.getElementById("joinTeam").offsetTop)
-    //         {
-    //             this.setState({
-    //                 headerDot: false,
-    //                 servicesDot: false,
-    //                 clientDot: false,
-    //                 socialLinksDot: false,
-    //                 joinTeamDot: true
+                })
+            }
+            if(window.scrollY >= document.getElementById("joinTeam").offsetTop-50)
+            {
+                this.setState({
+                    headerDot: false,
+                    servicesDot: false,
+                    clientDot: false,
+                    socialLinksDot: false,
+                    joinTeamDot: true,
+                    contactDot: false
         
-    //             })
-    //         }
-    //     })
+                })
+            }
+            if(window.scrollY >= document.getElementById("contact").offsetTop-50)
+            {
+                this.setState({
+                    headerDot: false,
+                    servicesDot: false,
+                    clientDot: false,
+                    socialLinksDot: false,
+                    joinTeamDot: false,
+                    contactDot: true
         
-    // } 
+                })
+            }
+        })
+        
+    } 
     
 
     scrollToHeader = (event) => {
@@ -96,15 +116,6 @@ class Body extends Component {
                behavior: "smooth"
             })
         }
-        
-        this.setState({
-            headerDot: true,
-            servicesDot: false,
-            clientDot: false,
-            socialLinksDot: false,
-            joinTeamDot: false
-
-        })
     }
     scrollToServices = (event) => {
         //.current is verification that your element has rendered
@@ -113,14 +124,6 @@ class Body extends Component {
                behavior: "smooth"
             })
         }
-        this.setState({
-            headerDot: false,
-            servicesDot: true,
-            clientDot: false,
-            socialLinksDot: false,
-            joinTeamDot: false
-
-        })
     }
     scrollToClient = (event) => {
         //.current is verification that your element has rendered
@@ -129,14 +132,6 @@ class Body extends Component {
                behavior: "smooth"
             })
         }
-        this.setState({
-            headerDot: false,
-            servicesDot: false,
-            clientDot: true,
-            socialLinksDot: false,
-            joinTeamDot: false
-
-        })
     }
     scrollToSocialLinks = (event) => {
         //.current is verification that your element has rendered
@@ -145,14 +140,6 @@ class Body extends Component {
                behavior: "smooth"
             })
         }
-        this.setState({
-            headerDot: false,
-            servicesDot: false,
-            clientDot: false,
-            socialLinksDot: true,
-            joinTeamDot: false
-
-        })
     }
     scrollToJoinTeam = (event) => {
         //.current is verification that your element has rendered
@@ -161,14 +148,14 @@ class Body extends Component {
                behavior: "smooth"
             })
         }
-        this.setState({
-            headerDot: false,
-            servicesDot: false,
-            clientDot: false,
-            socialLinksDot: false,
-            joinTeamDot: true
-
-        })
+    }
+    scrollToContact = (event) => {
+        //.current is verification that your element has rendered
+        if(this.contact.current){
+            this.contact.current.scrollIntoView({ 
+               behavior: "smooth"
+            })
+        }
     }
     
 
@@ -183,11 +170,13 @@ class Body extends Component {
                 scrollToClient={this.scrollToClient}
                 scrollToSocialLinks={this.scrollToSocialLinks}
                 scrollToJoinTeam={this.scrollToJoinTeam}
+                scrollToContact={this.scrollToContact}
                 headerDot={this.state.headerDot}
                 servicesDot={this.state.servicesDot}
                 clientDot={this.state.clientDot}
                 socialLinksDot={this.state.socialLinksDot}
-                joinTeamDot={this.state.joinTeamDot}/>
+                joinTeamDot={this.state.joinTeamDot}
+                contactDot={this.state.contactDot}/>
 
                 <section  id="header" ref={this.header}>
                     <Header
@@ -197,11 +186,13 @@ class Body extends Component {
                         scrollToClient={this.scrollToClient}
                         scrollToSocialLinks={this.scrollToSocialLinks}
                         scrollToJoinTeam={this.scrollToJoinTeam}
+                        scrollToContact={this.scrollToContact}
                         headerDot={this.state.headerDot}
                         servicesDot={this.state.servicesDot}
                         clientDot={this.state.clientDot}
                         socialLinksDot={this.state.socialLinksDot}
                         joinTeamDot={this.state.joinTeamDot}
+                        contactDot={this.state.contactDot}
                     />
                 </section>
 
@@ -212,6 +203,8 @@ class Body extends Component {
                 <section id="socialLinks" ref={this.socialLinks}><SocialLinks/></section>
 
                 <section id="joinTeam" ref={this.joinTeam}><JoinTeam/></section>
+                
+                <section id="contact" ref={this.contact}><Contact/></section>
             </div>
         )
     }

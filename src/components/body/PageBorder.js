@@ -109,6 +109,13 @@ class PageBorder extends Component {
                                     <i className="fas fa-circle circle"></i>
                                 }
                             </li>
+                            <li onClick={this.props.scrollToContact}>
+                                {
+                                    this.props.contactDot ? 
+                                    <i className="far fa-circle"></i> :
+                                    <i className="fas fa-circle circle"></i>
+                                }
+                            </li>
                         </ul>
                     </div>
             </div>

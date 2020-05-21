@@ -4,11 +4,9 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 import '../../../../css/body/client/customerReviews/reviewModal.css'
 
-import ReviewVideo from '../../../../assets/client/customerReviews/review_video.mp4'
 
 import ImgModal from '../../ImgModal'
 import VideoModal from '../../VideoModal'
-import ReactPlayer from 'react-player'
 
 class ReviewModal extends Component{
     constructor(props){
@@ -44,13 +42,13 @@ class ReviewModal extends Component{
         centered
         backdropClassName="review-modal-backdrop">
         <ModalHeader toggle={() => this.props.toggleReviewModal()}  className="modal-header modal-title">
-            <img className="rounded-circle" alt={"users here"} src={review.image} height={56} width={56} />
+            <img className="rounded-circle" alt={"users here"} src={review.image} height={100} width={100} />
             <h5>{review.name}</h5>
         </ModalHeader>
         <ModalBody>
             <h5 className="text-center">5 Stars</h5>
             <p className="text-center">
-                Review by another satisfactory whole cell customer
+                "{review.desc}"
             </p>
             <div className="gallery">
             <div className="image-container">
