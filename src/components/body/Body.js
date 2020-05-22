@@ -7,6 +7,7 @@ import Client from './client/Client'
 import SocialLinks from './SocialLinks'
 import JoinTeam from './JoinTeam'
 import Contact from './Contact'
+import StoreLocator from './StoreLocator'
 
 class Body extends Component {
     constructor(props){
@@ -205,6 +206,8 @@ class Body extends Component {
                 <section id="joinTeam" ref={this.joinTeam}><JoinTeam/></section>
                 
                 <section id="contact" ref={this.contact}><Contact/></section>
+
+                <StoreLocator />
             </div>
         )
     }

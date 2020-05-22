@@ -2,6 +2,7 @@
     position: fixed;
     transition: line-height 0.5s, top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
     font-family: "Oswald", Helvetica, sans-serif;
+    text-transform: uppercase;
     z-index: 1030;
     padding: 0 50px;
     height: 40px !important;

@@ -116,6 +116,7 @@
   .repair .content h1{
     font-weight: 700;
     font-size: 3rem;
+    text-transform: uppercase;
     background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
     background-repeat: repeat;
     background-position: 0 0;

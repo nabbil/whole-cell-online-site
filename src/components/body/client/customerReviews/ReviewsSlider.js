@@ -162,7 +162,7 @@ class ReviewsSlider extends Component {
                 {
                     id: 16,
                     name: "Whole Cell Customer",
-                    desc: "whole cell accessories at lansing gave me a great deal on my phones, repair them, they both are working and great customer service and I just want to say thank you",
+                    desc: "whole cell accessories at lansing gave me a great deal on my phones, repaired them, they both are working and great customer service and I just want to say thank you",
                     image: Img16,
                     video: Video16
                 },

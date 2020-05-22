@@ -36,7 +36,7 @@ class StaffTestimonials extends Component {
                         <div className="content">
                             <span>
                             <h1 data-aos="fade-right" data-aos-offset="60" data-aos-delay="200" data-aos-duration="1000">
-                                Franchise/Staff Testimonials
+                                Franchise/Staff <br /> Testimonials
                             </h1>
                             <p data-aos="fade-left" data-aos-offset="80" data-aos-delay="800" data-aos-duration="1000">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa id mollitia temporibus ipsa quis repellat dolorum laborum error inventore nam.

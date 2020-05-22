@@ -36,6 +36,7 @@
 .social-links .content h1{
     font-weight: 700;
     font-size: 5rem;
+    text-transform: uppercase;
     margin-bottom: 50px;
     background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
     background-repeat: repeat;
