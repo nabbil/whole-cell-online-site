@@ -1,0 +1,1 @@
+npm i bootstrap jquery mdbootstrap mdbreact react-bootstrap react-player react-router react-router-dom react-scripts react-slick reactstrap slick-carousel --save

@@ -71,8 +71,11 @@ class Header extends Component {
                             <a href="/whole-cell-online-site/">
                                 <img className="img-logo" src={ImgLogo}/>
                             </a>
-                            <h2>Open To Public</h2>
-                            <h2>Never Pay Retail!!!</h2>
+                            <h1>🎧 Accessories 🎧</h1>
+                            <h1>🛠️ Repair 🛠️</h1>
+                            <h1>📱 Activation 📱</h1>
+
+                            <h2>Open To Public | Never Pay Retail</h2>
                         </div>
                     </div>
                 </div>
