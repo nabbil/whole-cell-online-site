@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/whole-cell-online-site/static/css/main.9837e81c.chunk.css",
-    "main.js": "/whole-cell-online-site/static/js/main.c43f4791.chunk.js",
-    "main.js.map": "/whole-cell-online-site/static/js/main.c43f4791.chunk.js.map",
+    "main.css": "/whole-cell-online-site/static/css/main.06be6726.chunk.css",
+    "main.js": "/whole-cell-online-site/static/js/main.b6ea6dc2.chunk.js",
+    "main.js.map": "/whole-cell-online-site/static/js/main.b6ea6dc2.chunk.js.map",
     "runtime-main.js": "/whole-cell-online-site/static/js/runtime-main.e0f45547.js",
     "runtime-main.js.map": "/whole-cell-online-site/static/js/runtime-main.e0f45547.js.map",
     "static/css/2.508a7220.chunk.css": "/whole-cell-online-site/static/css/2.508a7220.chunk.css",
     "static/js/2.8112b8d1.chunk.js": "/whole-cell-online-site/static/js/2.8112b8d1.chunk.js",
     "static/js/2.8112b8d1.chunk.js.map": "/whole-cell-online-site/static/js/2.8112b8d1.chunk.js.map",
     "index.html": "/whole-cell-online-site/index.html",
-    "precache-manifest.bdf17676f55aeac1f697b22f2de5d500.js": "/whole-cell-online-site/precache-manifest.bdf17676f55aeac1f697b22f2de5d500.js",
+    "precache-manifest.c0382e780fef2aa0902f985d61da1740.js": "/whole-cell-online-site/precache-manifest.c0382e780fef2aa0902f985d61da1740.js",
     "service-worker.js": "/whole-cell-online-site/service-worker.js",
     "static/css/2.508a7220.chunk.css.map": "/whole-cell-online-site/static/css/2.508a7220.chunk.css.map",
-    "static/css/main.9837e81c.chunk.css.map": "/whole-cell-online-site/static/css/main.9837e81c.chunk.css.map",
+    "static/css/main.06be6726.chunk.css.map": "/whole-cell-online-site/static/css/main.06be6726.chunk.css.map",
     "static/js/2.8112b8d1.chunk.js.LICENSE.txt": "/whole-cell-online-site/static/js/2.8112b8d1.chunk.js.LICENSE.txt",
     "static/media/1.mp4": "/whole-cell-online-site/static/media/1.8e086587.mp4",
     "static/media/10.mp4": "/whole-cell-online-site/static/media/10.5e1e0019.mp4",
@@ -74,7 +74,7 @@
     "static/js/runtime-main.e0f45547.js",
     "static/css/2.508a7220.chunk.css",
     "static/js/2.8112b8d1.chunk.js",
-    "static/css/main.9837e81c.chunk.css",
-    "static/js/main.c43f4791.chunk.js"
+    "static/css/main.06be6726.chunk.css",
+    "static/js/main.b6ea6dc2.chunk.js"
   ]
 }
