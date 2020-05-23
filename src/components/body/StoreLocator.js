@@ -6,8 +6,8 @@ class StoreLocator extends Component {
         
         return (
             <div className="store-locator">
-            <div id="map">
-            </div>
+                {/* Google map */}
+                <div id="map" className="z-depth-1-half map-container mb-5" style={{height: "100vh", width: '100%'}}></div>
             </div>
         )
     }

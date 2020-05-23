@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import '../../../css/body/client/beTheBoss.css'
+import '../../css/body/beTheBoss.css'
 
 class BeTheBoss extends Component {
     render() {

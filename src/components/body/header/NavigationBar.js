@@ -109,18 +109,18 @@ class NavigationBar extends Component {
                                 }
                                 {
                                     this.props.clientDot ?
-                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToClient}>Client</Navbar.Brand> :
-                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToClient}>Client</Navbar.Brand>
+                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToClient}>Our Reviews</Navbar.Brand> :
+                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToClient}>Our Reviews</Navbar.Brand>
                                 }
-                                {
+                                {/* {
                                     this.props.socialLinksDot ?
                                     <Navbar.Brand className="nav-item active" onClick={this.props.scrollToSocialLinks}>Social Links</Navbar.Brand> :
                                     <Navbar.Brand className="nav-item" onClick={this.props.scrollToSocialLinks}>Social Links</Navbar.Brand>
-                                }
+                                } */}
                                 {
                                     this.props.joinTeamDot ?
-                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToJoinTeam}>Join Team</Navbar.Brand> :
-                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToJoinTeam}>Join Team</Navbar.Brand>
+                                    <Navbar.Brand className="nav-item active" onClick={this.props.scrollToJoinTeam}>Join Us</Navbar.Brand> :
+                                    <Navbar.Brand className="nav-item" onClick={this.props.scrollToJoinTeam}>Join Us</Navbar.Brand>
                                 }
                                 {
                                     this.props.contactDot ?

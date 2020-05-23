@@ -5,6 +5,7 @@ import Header from './header/Header'
 import Services from './services/Services'
 import Client from './client/Client'
 import SocialLinks from './SocialLinks'
+import BeTheBoss from './BeTheBoss'
 import JoinTeam from './JoinTeam'
 import Contact from './Contact'
 import StoreLocator from './StoreLocator'
@@ -69,18 +70,18 @@ class Body extends Component {
         
                 })
             }
-            if(window.scrollY >= document.getElementById("socialLinks").offsetTop-50)
-            {
-                this.setState({
-                    headerDot: false,
-                    servicesDot: false,
-                    clientDot: false,
-                    socialLinksDot: true,
-                    joinTeamDot: false,
-                    contactDot: false
+            // if(window.scrollY >= document.getElementById("socialLinks").offsetTop-50)
+            // {
+            //     this.setState({
+            //         headerDot: false,
+            //         servicesDot: false,
+            //         clientDot: false,
+            //         socialLinksDot: true,
+            //         joinTeamDot: false,
+            //         contactDot: false
         
-                })
-            }
+            //     })
+            // }
             if(window.scrollY >= document.getElementById("joinTeam").offsetTop-50)
             {
                 this.setState({
@@ -134,14 +135,14 @@ class Body extends Component {
             })
         }
     }
-    scrollToSocialLinks = (event) => {
-        //.current is verification that your element has rendered
-        if(this.socialLinks.current){
-            this.socialLinks.current.scrollIntoView({ 
-               behavior: "smooth"
-            })
-        }
-    }
+    // scrollToSocialLinks = (event) => {
+    //     //.current is verification that your element has rendered
+    //     if(this.socialLinks.current){
+    //         this.socialLinks.current.scrollIntoView({ 
+    //            behavior: "smooth"
+    //         })
+    //     }
+    // }
     scrollToJoinTeam = (event) => {
         //.current is verification that your element has rendered
         if(this.joinTeam.current){
@@ -201,7 +202,7 @@ class Body extends Component {
 
                 <section id="client" ref={this.client}><Client/></section>
 
-                <section id="socialLinks" ref={this.socialLinks}><SocialLinks/></section>
+                {/* <section id="socialLinks" ref={this.socialLinks}><SocialLinks/></section> */}
 
                 <section id="joinTeam" ref={this.joinTeam}><JoinTeam/></section>
                 

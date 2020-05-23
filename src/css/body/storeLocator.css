@@ -1,8 +1,15 @@
 .store-locator{
-    padding: 0 15px 15px 15px;
+    padding: 0 25px 0 25px !important;
 }
 
 #map{
     height: 100vh;
     width: 100%;
+    margin: 0 !important;
+}
+
+@media(max-width: 767px){
+    .store-locator{
+        padding: 0 !important;
+    }
 }
